@@ -1,0 +1,8 @@
+---
+template: VSSadl_metro_about_us
+content: |
+  Information about us bla bla bla
+---
+template: VSSadl_metro_courts
+content: |
+  Information about courts for ${VSSlocation}

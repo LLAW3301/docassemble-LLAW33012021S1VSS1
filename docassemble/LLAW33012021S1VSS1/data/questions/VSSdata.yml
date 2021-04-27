@@ -1,0 +1,14 @@
+variable name: VSSdata
+use objects: True
+data:
+  Port Augusta:
+    about_us: |
+      ${ VSSpt_ag_about_us }
+    courts: |
+      ${ VSSpt_ag_courts }
+    psych_services: |
+      ${ VSSpt_ag_psych_services }
+  Adelaide Metro:
+    about_us: |
+      ${ VSSadl_metro_about_us }
+---

@@ -1,0 +1,28 @@
+---
+include:
+  - VSS_questions.yml
+  - VSSadl_metro_templates.yml
+  - VSSdata.yml
+---
+mandatory: True
+question: Welcome screen
+subquestion: |
+  welcome text will go here
+  
+  Disclaimer goes here
+buttons:
+  - Continue: continue
+  - Exit: exit
+---
+mandatory: True
+code: |
+ 
+  final_screen
+
+---
+event: final_screen
+question: The final screen
+subquestion: |
+  
+  ${ VSSdata[VSSlocation][VSScategories] }
+---

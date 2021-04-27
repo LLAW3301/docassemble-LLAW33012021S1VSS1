@@ -1,0 +1,25 @@
+---
+question: Location
+subquestion: |
+  What is your location?
+fields:
+  - no label: VSSlocation
+    datatype: radio
+    choices:
+      - Adelaide Metro
+      - Port Augusta
+      - Mt Gambier
+---
+question: Categories
+subuquestion: |
+  text describing categories
+fields: 
+  - no label: VSScategories
+    choices:
+      - "About Us/Contact Us": about_us
+      - Courts: courts
+      - Victim Impact Statements: vis
+      - Psychological Services: psych_services
+      - "Victims' Rights": victims_rights
+      - "Mental Health First Aid": mh_first_aid
+---
