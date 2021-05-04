@@ -1,15 +1,15 @@
 ---
-question: Location
-subquestion: |
-  What is your location?
+#Setting the district 
+question: |
+  Which district is your case in?
 fields:
-  - no label: VSSlocation
-    datatype: radio
-    choices:
-      - Adelaide Metro
-      - Port Augusta
-      - Mt Gambier
+  - District: VSSLocation
+    choices: 
+      -  Adelaide Metro
+      -  Port Augusta
+      -  Mt Gambier
 ---
+#asking which category they'd like
 question: Categories
 subuquestion: |
   text describing categories

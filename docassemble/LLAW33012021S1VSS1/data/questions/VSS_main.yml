@@ -1,9 +1,9 @@
 ---
 include:
+  - VSS_Content.yml
   - VSS_questions.yml
-  - VSSadl_metro_templates.yml
-  - VSSdata.yml
 ---
+#welcome screen
 mandatory: True
 question: Welcome screen
 subquestion: |
@@ -14,15 +14,45 @@ buttons:
   - Continue: continue
   - Exit: exit
 ---
+#code to ask for location first then choose a subject of interest
 mandatory: True
 code: |
- 
-  final_screen
-
----
-event: final_screen
-question: The final screen
-subquestion: |
-  
-  ${ VSSdata[VSSlocation][VSScategories] }
----
+  if (VSSLocation == 'Adelaide Metro' and VSScategories == 'about_us'):
+    VSSadl_metro_about_us
+  if (VSSLocation == 'Adelaide Metro' and VSScategories == 'courts'):
+    VSSadl_metro_courts
+  if (VSSLocation == 'Adelaide Metro' and VSScategories == 'vis'):
+    VSSadl_metro_psych_services
+  if (VSSLocation == 'Adelaide Metro' and VSScategories == 'psych_services'):
+    VSSadl_metro_victims_rights
+  if (VSSLocation == 'Adelaide Metro' and VSScategories == 'victims_rights'):
+    VSSadl_metro_MH_first_aid
+  if (VSSLocation == 'Adelaide Metro' and VSScategories == 'mh_first_aid'):
+    VSSadl_metro_VIS
+    
+  if (VSSLocation == 'Port Augusta' and VSScategories == 'about_us'):
+    VSSpt_ag_about_us
+  if (VSSLocation == 'Port Augusta' and VSScategories == 'courts'):
+    VSSpt_ag_courts
+  if (VSSLocation == 'Port Augusta' and VSScategories == 'vis'):
+    VSSpt_ag_psych_services
+  if (VSSLocation == 'Port Augusta' and VSScategories == 'psych_services'):
+    VSSpt_ag_victims_rights
+  if (VSSLocation == 'Port Augusta' and VSScategories == 'victims_rights'):
+    VSSpt_ag_MH_first_aid
+  if (VSSLocation == 'Port Augusta' and VSScategories == 'mh_first_aid'):
+    VSSpt_ag_VIS
+    
+  if (VSSLocation == 'Mt Gambier' and VSScategories == 'about_us'):
+    VSSmt_gambier_about_us
+  if (VSSLocation == 'Mt Gambier' and VSScategories == 'courts'):
+    VSSmt_gambier_courts
+  if (VSSLocation == 'Mt Gambier' and VSScategories == 'vis'):
+    VSSmt_gambier_psych_services
+  if (VSSLocation == 'Mt Gambier' and VSScategories == 'psych_services'):
+    VSSmt_gambier_victims_rights
+  if (VSSLocation == 'Mt Gambier' and VSScategories == 'victims_rights'):
+    VSSmt_gambier_MH_first_aid
+  if (VSSLocation == 'Mt Gambier' and VSScategories == 'mh_first_aid'):
+    VSSmt_gambier_VIS
+--- 

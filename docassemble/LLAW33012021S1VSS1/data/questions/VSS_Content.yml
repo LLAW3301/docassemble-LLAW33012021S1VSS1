@@ -1,0 +1,149 @@
+#templates for the location+information
+event: VSSadl_metro_about_us
+question: ABOUT US
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSadl_metro_courts
+question: METRO COURTS
+subquestion: |
+  Information about courts for ${VSSlocation} 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSadl_metro_psych_services
+question: PSYCH SERVICES
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSadl_metro_victims_rights
+question: METRO VICTIMS RIGHTS
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSadl_metro_MH_first_aid
+question: MENTAL HEALTH FIRST AID
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSadl_metro_VIS
+question: IMPACT STATEMENTS
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+
+#templates for the location+information
+event: VSSpt_ag_about_us
+question: ABOUT US
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSpt_ag_courts
+question: METRO COURTS
+subquestion: |
+  Information about courts for ${VSSlocation} 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSpt_ag_psych_services
+question: PSYCH SERVICES
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSpt_ag_victims_rights
+question: METRO VICTIMS RIGHTS
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSpt_ag_MH_first_aid
+question: MENTAL HEALTH FIRST AID
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSpt_ag_VIS
+question: IMPACT STATEMENTS
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+
+#templates for the location+information
+event: VSSmt_gambier_about_us
+question: ABOUT US
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSmt_gambier_courts
+question: METRO COURTS
+subquestion: |
+  Information about courts for ${VSSlocation} 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSmt_gambier_psych_services
+question: PSYCH SERVICES
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSmt_gambier_victims_rights
+question: METRO VICTIMS RIGHTS
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSmt_gambier_MH_first_aid
+question: MENTAL HEALTH FIRST AID
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+event: VSSmt_gambier_VIS
+question: IMPACT STATEMENTS
+subquestion: |
+  jhsdfjh skd jfhs
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
