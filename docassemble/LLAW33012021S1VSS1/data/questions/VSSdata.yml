@@ -4,11 +4,20 @@ data:
   Port Augusta:
     about_us: |
       ${ VSSpt_ag_about_us }
-    courts: |
-      ${ VSSpt_ag_courts }
     psych_services: |
       ${ VSSpt_ag_psych_services }
   Adelaide Metro:
     about_us: |
       ${ VSSadl_metro_about_us }
+    courts:
+      District Court:
+        before: |
+          ${ VSSadl_metro_district_before }
+        after: |
+          ${ VSSadl_metro_district_after }
+      Supreme Court:
+        before: |
+          dkdkdk
+        after: |
+          dkdkdkd
 ---

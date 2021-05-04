@@ -16,13 +16,14 @@ buttons:
 ---
 mandatory: True
 code: |
- 
   final_screen
-
 ---
 event: final_screen
 question: The final screen
 subquestion: |
-  
+  % if VSScategories == 'courts':
+  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
+  % else:
   ${ VSSdata[VSSlocation][VSScategories] }
+  % endif
 ---
