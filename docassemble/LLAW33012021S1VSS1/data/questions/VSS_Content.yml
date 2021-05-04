@@ -6,11 +6,12 @@ subquestion: |
 buttons: 
   - Exit: exit
   - Restart: restart
+  - pdf: continue
 ---
 event: VSSadl_metro_courts
 question: METRO COURTS
 subquestion: |
-  Information about courts for ${VSSlocation} 
+  Information regarding 
 buttons: 
   - Exit: exit
   - Restart: restart

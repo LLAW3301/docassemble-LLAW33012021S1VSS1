@@ -2,6 +2,8 @@
 include:
   - VSS_Content.yml
   - VSS_questions.yml
+features:
+  question back button: True
 ---
 #welcome screen
 mandatory: True
@@ -55,4 +57,20 @@ code: |
     VSSmt_gambier_MH_first_aid
   if (VSSLocation == 'Mt Gambier' and VSScategories == 'mh_first_aid'):
     VSSmt_gambier_VIS
+  
 --- 
+event: pdf_screen
+question:  |
+  Make into PDF  
+subquestion: |
+  What information would you like to e-mail?
+button: save_pdf
+attachments:
+  docx template file: FCA_form.docx
+  valid formats: 
+    - pdf 
+buttons:
+  - Exit: exit
+    url: http://www.courts.sa.gov.au/
+  - Restart: restart
+---

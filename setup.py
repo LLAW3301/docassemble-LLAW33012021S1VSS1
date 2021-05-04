@@ -43,8 +43,8 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.LLAW33012021S1VSS1',
-      version='0.0.2',
-      description=('A docassemble extension.'),
+      version='0.0.3',
+      description=('Temp Update'),
       long_description='# docassemble.LLAW33012021S1VSS1\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nMark Ferraretto, mark.ferraretto@flinders.edu.au\r\n\r\n',
       long_description_content_type='text/markdown',
       author='Mark Ferraretto',

@@ -10,16 +10,30 @@ fields:
       -  Mt Gambier
 ---
 #asking which category they'd like
-question: Categories
-subuquestion: |
-  text describing categories
-fields: 
-  - no label: VSScategories
-    choices:
-      - "About Us/Contact Us": about_us
-      - Courts: courts
-      - Victim Impact Statements: vis
-      - Psychological Services: psych_services
-      - "Victims' Rights": victims_rights
-      - "Mental Health First Aid": mh_first_aid
+question: |
+  What would you like information on?
+field: VSScategories
+buttons:
+  - "About Us/Contact Us": about_us
+  - "Courts": courts
+  - "Victim Impact Statements": vis
+  - "Psychological Services": psych_services
+  - "Victims' Rights": victims_rights
+  - "Mental Health First Aid": mh_first_aid
+---
+question: |
+  Which Courts?
+field: CourtSelect
+buttons:
+  -  "District Court": DistrictCourt
+  -  "Supreme Court": SupremeCourt
+---
+question: |
+  What information would you like
+field: CourtInfo
+buttons:
+  -  "Before Court Protocols": Before_Court_Protocols
+  -  "During Court Protocols": During_Court_Protocols
+  -  "After Court Protocols": After_Court_Protocols
+  -  "Court Layout": Court_Layout
 ---
