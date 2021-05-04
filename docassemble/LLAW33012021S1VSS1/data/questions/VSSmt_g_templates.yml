@@ -1,0 +1,40 @@
+#templates for all pages in Mount Gambier
+include:
+  - VSS_questions.yml
+---
+template: VSSmt_g_about_us
+content: |
+  Information about us bla bla bla
+---
+template: VSSmt_g_before
+content: |
+  Information about before court protocols for ${VSSlocation}
+---
+template: VSSmt_g_after
+content: |
+  Information about before court protocols for ${VSSlocation}
+---
+template: VSSmt_g_during
+content: |
+  Information about during court protocols for ${VSSlocation}
+---
+template: VSSmt_g_layout
+content: |
+  Court Layout For ${VSSlocation}
+---
+template: VSSmt_g_vis
+content: |
+  Information about Victim Impact Statements bla bla bla
+---
+template: VSSmt_g_psych_services
+content: |
+  Information about Psych services
+---
+template: VSSmt_g_victims_rights
+content: |
+  Information about Victims Rights
+---
+template: VSSmt_g_mh_first_aid
+content: |
+  Information about Mental health first aid
+---

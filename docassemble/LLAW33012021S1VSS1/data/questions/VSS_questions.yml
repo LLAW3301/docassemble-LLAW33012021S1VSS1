@@ -1,4 +1,5 @@
 ---
+#ask the user for location
 question: Location
 subquestion: |
   What is your location?
@@ -10,6 +11,7 @@ fields:
       - Port Augusta
       - Mt Gambier
 ---
+#asking the user to select the category of information they'd like to see
 question: Categories
 subuquestion: |
   text describing categories
@@ -17,9 +19,31 @@ fields:
   - no label: VSScategories
     choices:
       - "About Us/Contact Us": about_us
-      - Courts: courts
-      - Victim Impact Statements: vis
-      - Psychological Services: psych_services
+      - "Courts": courts
+      - "Victim Impact Statements": vis
+      - "Psychological Services": psych_services
       - "Victims' Rights": victims_rights
       - "Mental Health First Aid": mh_first_aid
+---
+#asking user to select which court district
+question: Courts
+subquestion: |
+  text describing two courts
+fields:
+  -  no label: VSScourt
+     choices:
+       - "Supreme Court": Sup_Court
+       - "District Court": Dis_Court
+---
+#asking user to select which court category they'd like to see
+question: Court Categories
+subquestion: |
+  text describing court categories
+fields:
+  -  no label: VSScourt_subcat
+     choices:
+       -  "Before Court Protocols": before_court
+       -  "During Court Protocols": during_court
+       -  "After Court Protocols": after_court
+       -  "Court Layout": court_layout
 ---

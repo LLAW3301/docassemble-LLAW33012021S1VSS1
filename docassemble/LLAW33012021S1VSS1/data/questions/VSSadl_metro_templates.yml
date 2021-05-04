@@ -1,8 +1,56 @@
+#templates for all pages in metro adl
+include:
+  - VSS_questions.yml
 ---
 template: VSSadl_metro_about_us
 content: |
   Information about us bla bla bla
 ---
-template: VSSadl_metro_courts
+template: VSSadl_metro_district_before
 content: |
-  Information about courts for ${VSSlocation}
+  Information about before court protocols for ${VSSlocation} ${ VSScourt }
+---
+template: VSSadl_metro_district_after
+content: |
+  Information about before court protocols for ${VSSlocation} ${ VSScourt }
+---
+template: VSSadl_metro_district_during
+content: |
+  Information about during court protocols for ${VSSlocation} ${ VSScourt }
+---
+template: VSSadl_metro_district_layout
+content: |
+  Court Layout For ${VSSlocation} ${ VSScourt }
+---
+template: VSSadl_metro_supreme_before
+content: |
+  Information about before court protocols for ${VSSlocation} ${ VSScourt }
+---
+template: VSSadl_metro_supreme_after
+content: |
+  Information about before court protocols for ${VSSlocation} ${ VSScourt }
+---
+template: VSSadl_metro_supreme_during
+content: |
+  Information about during court protocols for ${VSSlocation} ${ VSScourt }
+---
+template: VSSadl_metro_court_layout
+content: |
+  Court Layout For ${VSSlocation} ${ VSScourt }
+---
+template: VSSadl_metro_vis
+content: |
+  Information about Victim Impact Statements bla bla bla
+---
+template: VSSadl_metro_psych_services
+content: |
+  Information about Psych services
+---
+template: VSSadl_metro_victims_rights
+content: |
+  Information about Victims Rights
+---
+template: VSSadl_metro_mh_first_aid
+content: |
+  Information about Mental health first aid
+---

@@ -1,23 +1,75 @@
+#data block to reference eahc info page for each district
 variable name: VSSdata
 use objects: True
 data:
   Port Augusta:
     about_us: |
       ${ VSSpt_ag_about_us }
+    courts:
+      before_court: |
+        ${ VSSpt_ag_before }
+      after_court: |
+        ${ VSSpt_ag_after }
+      during_court: |
+        ${ VSSpt_ag_during }
+      court_layout: |
+        ${ VSSpt_ag_layout }
+    vis: |
+      ${ VSSpt_ag_vis }
     psych_services: |
       ${ VSSpt_ag_psych_services }
+    victims_rights: |
+      ${ VSSpt_ag_victims_rights }
+    mh_first_aid: |
+      ${ VSSpt_ag_mh_first_aid }
   Adelaide Metro:
     about_us: |
       ${ VSSadl_metro_about_us }
     courts:
       District Court:
-        before: |
+        before_court: |
           ${ VSSadl_metro_district_before }
-        after: |
+        after_court: |
           ${ VSSadl_metro_district_after }
+        during_court: |
+          ${ VSSadl_metro_district_during }
+        court_layout: |
+          ${ VSSadl_metro_district_layout}
       Supreme Court:
-        before: |
-          dkdkdk
-        after: |
-          dkdkdkd
+        before_court: |
+          ${ VSSadl_metro_supreme_before }
+        after_court: |
+          ${ VSSadl_metro_supreme_after }
+        during_court: |
+          ${ VSSadl_metro_supreme_during }
+        court_layout: |
+          ${ VSSadl_metro_court_layout }
+    vis: |
+      ${ VSSadl_metro_vis }
+    psych_services: |
+      ${ VSSadl_metro_psych_services }
+    victims_rights: |
+      ${ VSSadl_metro_victims_rights }
+    mh_first_aid: |
+      ${ VSSadl_metro_mh_first_aid }
+  Mt Gambier:
+    about_us: |
+      ${ VSSmt_g_about_us }
+    courts:
+      before_court: |
+        ${ VSSmt_g_before }
+      after_court: |
+        ${ VSSmt_g_after }
+      during_court: |
+        ${ VSSmt_g_during }
+      court_layout: |
+        ${ VSSmt_g_layout }
+    vis: |
+      ${ VSSmt_g_vis }
+    psych_services: |
+      ${ VSSmt_g_psych_services }
+    victims_rights: |
+      ${ VSSmt_g_victims_rights }
+    mh_first_aid: |
+      ${ VSSmt_g_mh_first_aid}
 ---

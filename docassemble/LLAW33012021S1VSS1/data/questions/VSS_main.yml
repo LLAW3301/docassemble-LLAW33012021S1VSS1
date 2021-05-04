@@ -1,8 +1,10 @@
 ---
 include:
   - VSS_questions.yml
-  - VSSadl_metro_templates.yml
   - VSSdata.yml
+  - VSSadl_metro_templates.yml
+  - VSSpt_ag_templates.yml
+  - VSSmt_g_templates.yml
 ---
 mandatory: True
 question: Welcome screen
@@ -16,10 +18,10 @@ buttons:
 ---
 mandatory: True
 code: |
-  final_screen
+  info_page
 ---
-event: final_screen
-question: The final screen
+event: info_page
+question: The screen where content is displayed
 subquestion: |
   % if VSScategories == 'courts':
   ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
