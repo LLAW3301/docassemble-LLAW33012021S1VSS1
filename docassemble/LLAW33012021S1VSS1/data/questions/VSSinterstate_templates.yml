@@ -2,51 +2,51 @@
 include:
   - VSS_questions.yml
 ---
-template: VSSadl_metro_about_us
+template: VSSinterstate_about_us
 content: |
   Information about us bla bla bla
 ---
-template: VSSadl_metro_district_before
+template: VVSSinterstate_district_before
 content: |
   Information about before court protocols for ${VSSlocation} ${ VSScourt }
 ---
-template: VSSadl_metro_district_after
+template: VSSinterstate_district_after
 content: |
   Information about before court protocols for ${VSSlocation} ${ VSScourt }
 ---
-template: VSSadl_metro_district_during
+template: VSSinterstate_district_during
 content: |
   Information about during court protocols for ${VSSlocation} ${ VSScourt }
 ---
-template: VSSadl_metro_district_layout
+template: VSSinterstate_district_layout
 content: |
   Court Layout For ${VSSlocation} ${ VSScourt }
 ---
-template: VSSadl_metro_supreme_before
+template: VSSinterstate_supreme_before
 content: |
   Information about before court protocols for ${VSSlocation} ${ VSScourt }
 ---
-template: VSSadl_metro_supreme_after
+template: VSSinterstate_supreme_after
 content: |
   Information about before court protocols for ${VSSlocation} ${ VSScourt }
 ---
-template: VSSadl_metro_supreme_during
+template: VSSinterstate_supreme_during
 content: |
   Information about during court protocols for ${VSSlocation} ${ VSScourt }
 ---
-template: VSSadl_metro_supreme_layout
+template: VSSinterstate_supreme_layout
 content: |
   Court Layout For ${VSSlocation} ${ VSScourt }
 ---
-template: VSSadl_metro_vis
+template: VSSinterstate_vis
 content: |
   Information about Victim Impact Statements bla bla bla
 ---
-template: VSSadl_metro_psych_services
+template: VSSinterstate_psych_services
 content: |
   Information about Psych services
 ---
-template: VSSadl_metro_victims_rights
+template: VSSinterstate_victims_rights
 content: |
   Information about Victims Rights
 ---

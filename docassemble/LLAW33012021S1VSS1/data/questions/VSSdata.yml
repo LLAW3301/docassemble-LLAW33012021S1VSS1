@@ -20,8 +20,6 @@ data:
       ${ VSSpt_ag_psych_services }
     victims_rights: |
       ${ VSSpt_ag_victims_rights }
-    mh_first_aid: |
-      ${ VSSpt_ag_mh_first_aid }
   Adelaide Metro:
     about_us: |
       ${ VSSadl_metro_about_us }
@@ -43,15 +41,13 @@ data:
         during_court: |
           ${ VSSadl_metro_supreme_during }
         court_layout: |
-          ${ VSSadl_metro_court_layout }
+          ${ VSSadl_metro_supreme_layout }
     vis: |
       ${ VSSadl_metro_vis }
     psych_services: |
       ${ VSSadl_metro_psych_services }
     victims_rights: |
       ${ VSSadl_metro_victims_rights }
-    mh_first_aid: |
-      ${ VSSadl_metro_mh_first_aid }
   Mt Gambier:
     about_us: |
       ${ VSSmt_g_about_us }
@@ -70,6 +66,32 @@ data:
       ${ VSSmt_g_psych_services }
     victims_rights: |
       ${ VSSmt_g_victims_rights }
-    mh_first_aid: |
-      ${ VSSmt_g_mh_first_aid}
+  Interstate:
+    about_us: |
+      ${ VSSinterstate_about_us }
+    courts:
+      District Court:
+        before_court: |
+          ${ VVSSinterstate_district_before }
+        after_court: |
+          ${ VSSinterstate_district_after }
+        during_court: |
+          ${ VSSinterstate_district_during }
+        court_layout: |
+          ${ VSSinterstate_district_layout}
+      Supreme Court:
+        before_court: |
+          ${ VSSinterstate_supreme_before }
+        after_court: |
+          ${ VSSinterstate_supreme_after }
+        during_court: |
+          ${ VSSinterstate_supreme_during }
+        court_layout: |
+          ${ VSSinterstate_supreme_layout }
+    vis: |
+      ${ VSSinterstate_vis }
+    psych_services: |
+      ${ VSSinterstate_psych_services }
+    victims_rights: |
+      ${ VSSinterstate_victims_rights }
 ---

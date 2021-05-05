@@ -5,7 +5,9 @@ include:
   - VSSadl_metro_templates.yml
   - VSSpt_ag_templates.yml
   - VSSmt_g_templates.yml
+  - VSSinterstate_templates.yml
 ---
+#welcome screen
 mandatory: True
 question: Welcome screen
 subquestion: |
@@ -20,12 +22,15 @@ mandatory: True
 code: |
   info_page
 ---
+#making the program only ask the questions required depending on location or whethever they've selected the courts category or not
 event: info_page
 question: The screen where content is displayed
 subquestion: |
-  % if VSScategories == 'courts':
-  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
-  % else:
+  % if (VSScategories != 'courts'):
   ${ VSSdata[VSSlocation][VSScategories] }
+  % elif (VSScategories == 'courts' and VSSlocation == 'Port Augusta') or (VSScategories == 'courts' and VSSlocation == 'Mt Gambier'):
+  ${ VSSdata[VSSlocation][VSScategories][VSScourt_subcat] } 
+  % elif (VSScategories == 'courts' and VSSlocation == 'Adelaide Metro') or (VSScategories == 'courts' and VSSlocation == 'Interstate'):
+  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
   % endif
 ---
