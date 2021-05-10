@@ -9,11 +9,13 @@ include:
 ---
 #welcome screen
 mandatory: True
-question: Welcome screen
+question: Victim Support Suervice Companion\'s Guide 
 subquestion: |
-  welcome text will go here
+  Welcome to the Victim Support Service (VSS) Companion’s Guide. This application is designed to provide Court Companions with quick access to information, to assist them in providing support to clients of the court support program.
   
-  Disclaimer goes here
+  ***Disclaimer***
+  
+  Do you accept these terms?
 buttons:
   - Continue: continue
   - Exit: exit
@@ -23,8 +25,9 @@ code: |
   info_page
 ---
 #making the program only ask the questions required depending on location or whethever they've selected the courts category or not
+back button: True
 event: info_page
-question: The screen where content is displayed
+question: Information on ${ VSScategories } at ${ VSSlocation }
 subquestion: |
   % if (VSScategories != 'courts'):
   ${ VSSdata[VSSlocation][VSScategories] }

@@ -1,5 +1,6 @@
 ---
 #ask the user for location
+back button: True
 question: Location
 subquestion: |
   What is your location?
@@ -7,17 +8,19 @@ fields:
   - no label: VSSlocation
     datatype: radio
     choices:
-      - Adelaide Metro
-      - Port Augusta
-      - Mt Gambier
-      - Interstate
+      - "Adelaide Metro": Adelaide Metro
+      - "Port Augusta": Port Augusta
+      - "Mt Gambier": Mt Gambier
+      - "Interstate": Interstate
 ---
 #asking the user to select the category of information they'd like to see
+back button: True
 question: Categories
 subuquestion: |
   text describing categories
 fields: 
   - no label: VSScategories
+    datatype: radio
     choices:
       - "About Us/Contact Us": about_us
       - "Courts": courts
@@ -31,16 +34,19 @@ subquestion: |
   text describing two courts
 fields:
   -  no label: VSScourt
+     datatype: radio
      choices:
        - Supreme Court
        - District Court
 ---
 #asking user to select which court category they'd like to see
+back button: True
 question: Court Categories
 subquestion: |
   text describing court categories
 fields:
   -  no label: VSScourt_subcat
+     datatype: radio
      choices:
        -  "Before Court Protocols": before_court
        -  "During Court Protocols": during_court
