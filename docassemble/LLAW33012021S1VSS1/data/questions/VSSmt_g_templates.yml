@@ -84,7 +84,7 @@ content: |
 ---
 template: VSSmt_g_layout
 content: |
-  Court Layout For
+   ![Court Layout](https://docassemble.flinders.edu.au/playgroundstatic/default/279/Court_Layout.jpg)
 ---
 template: VSSmt_g_vis
 content: |

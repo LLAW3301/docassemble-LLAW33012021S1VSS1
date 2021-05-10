@@ -1,3 +1,9 @@
+metadata:
+  title: |
+    Victim Support Services SA Companions Handbook
+  short title: |
+    Companions Handbook
+  organisation: Victim Support Services SA
 ---
 include:
   - VSS_questions.yml
@@ -24,10 +30,10 @@ mandatory: True
 code: |
   info_page
 ---
-#making the program only ask the questions required depending on location or whethever they've selected the courts category or not
+#making the program only ask the questions required depending on location or whether they've selected the courts category or not
 back button: True
 event: info_page
-question: Information
+question: Victim Support Suervice Companion\'s Guide
 subquestion: |
   % if (VSSlocation == 'Interstate'):
   ${ VSSdata[VSSlocation] }
@@ -36,7 +42,13 @@ subquestion: |
   % elif (VSSlocation == 'Port Augusta' and VSScategories == 'courts') or (VSSlocation == 'Mt Gambier' and VSScategories == 'courts'):
   ${ VSSdata[VSSlocation][VSScategories][VSScourt_subcat] } 
   % elif (VSSlocation == 'Adelaide Metro' and VSScategories == 'courts'):
-  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }T
-  % endif  
-
+  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
+  % endif   
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: Handbook Information
+  docx template file: Handbook_Template.docx
+  valid formats:
+    - pdf
 ---

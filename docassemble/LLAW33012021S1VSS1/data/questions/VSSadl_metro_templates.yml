@@ -84,7 +84,7 @@ content: |
 ---
 template: VSSadl_metro_district_layout
 content: |
-  Court Layout For
+   ![Court Layout](https://docassemble.flinders.edu.au/playgroundstatic/default/279/Court_Layout.jpg)
 ---
 template: VSSadl_metro_supreme_before
 content: |
@@ -149,7 +149,7 @@ content: |
 ---
 template: VSSadl_metro_supreme_layout
 content: |
-  Court Layout For
+   ![Court Layout](https://docassemble.flinders.edu.au/playgroundstatic/default/279/Court_Layout.jpg)
 ---
 template: VSSadl_metro_vis
 content: |
