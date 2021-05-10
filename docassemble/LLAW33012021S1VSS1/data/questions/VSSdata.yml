@@ -66,32 +66,6 @@ data:
       ${ VSSmt_g_psych_services }
     victims_rights: |
       ${ VSSmt_g_victims_rights }
-  Interstate:
-    about_us: |
-      ${ VSSinterstate_about_us }
-    courts:
-      District Court:
-        before_court: |
-          ${ VVSSinterstate_district_before }
-        after_court: |
-          ${ VSSinterstate_district_after }
-        during_court: |
-          ${ VSSinterstate_district_during }
-        court_layout: |
-          ${ VSSinterstate_district_layout}
-      Supreme Court:
-        before_court: |
-          ${ VSSinterstate_supreme_before }
-        after_court: |
-          ${ VSSinterstate_supreme_after }
-        during_court: |
-          ${ VSSinterstate_supreme_during }
-        court_layout: |
-          ${ VSSinterstate_supreme_layout }
-    vis: |
-      ${ VSSinterstate_vis }
-    psych_services: |
-      ${ VSSinterstate_psych_services }
-    victims_rights: |
-      ${ VSSinterstate_victims_rights }
+  Interstate: |
+    ${ VSSinterstate_about_us }
 ---

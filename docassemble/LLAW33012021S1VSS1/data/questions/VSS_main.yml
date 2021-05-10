@@ -27,13 +27,16 @@ code: |
 #making the program only ask the questions required depending on location or whethever they've selected the courts category or not
 back button: True
 event: info_page
-question: Information on ${ VSScategories } at ${ VSSlocation }
+question: Information
 subquestion: |
-  % if (VSScategories != 'courts'):
+  % if (VSSlocation == 'Interstate'):
+  ${ VSSdata[VSSlocation] }
+  % elif (VSSlocation != 'Interstate' and VSScategories != 'courts'):
   ${ VSSdata[VSSlocation][VSScategories] }
-  % elif (VSScategories == 'courts' and VSSlocation == 'Port Augusta') or (VSScategories == 'courts' and VSSlocation == 'Mt Gambier'):
+  % elif (VSSlocation == 'Port Augusta' and VSScategories == 'courts') or (VSSlocation == 'Mt Gambier' and VSScategories == 'courts'):
   ${ VSSdata[VSSlocation][VSScategories][VSScourt_subcat] } 
-  % elif (VSScategories == 'courts' and VSSlocation == 'Adelaide Metro') or (VSScategories == 'courts' and VSSlocation == 'Interstate'):
-  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
-  % endif
+  % elif (VSSlocation == 'Adelaide Metro' and VSScategories == 'courts'):
+  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }T
+  % endif  
+
 ---
