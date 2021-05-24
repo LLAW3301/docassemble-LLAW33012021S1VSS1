@@ -15,9 +15,9 @@ include:
 ---
 #welcome screen
 mandatory: True
-question: Victim Support Suervice Companion\'s Guide 
+question: Victim Support Service Companions' Guide 
 subquestion: |
-  Welcome to the Victim Support Service (VSS) Companion’s Guide. This application is designed to provide Court Companions with quick access to information, to assist them in providing support to clients of the court support program.
+  Welcome to the Victim Support Service (VSS) Companions' Guide. This application is designed to provide Court Companions with quick access to information, assisting them in providing support to clients of the court support program.
   
   ***Disclaimer***
   

@@ -6,11 +6,8 @@ template: VSSadl_metro_about_us
 content: |
   #About us/Contact us
   
-  With 40 years' experience, we understand the impact crime has on people's lives and the support needed to assist people to cope and recover. We're proud to serve adult victims of institutional childhood abuse and women and their children experiencing domestic and family violence in South Australia through offering trauma-informed therapeutic and practical services.
-  
-  **Values/Purpose:**    
-  
-  The demanding nature of our work requires a collaborative approach where we respect the unique skills and insights that everyone brings to the challenges we face. We recognise the impact of trauma and support our clients through safe, integrated and accessible services throughout their journey towards recovery and justice. We work alongside victims of crime to effect positive change at an individual and systemic level.
+  In 2021 the Victim Support Service (VSS) celebrated 40 years of providing continuous service and support to victims of crime in South Australia. The core service provided during all of that time has been the Court Companion program that is delivered by trained and experienced volunteers. The Court Companion program began in 1981 after retired Queensland Police Commissioner Ray Whitrod identified that victims of crime lacked support when attending court to give evidence during a criminal trial. Following a talk delivered by Mr Whitrod and his wife Mavis to the SA Dental Wives, those present volunteered to provide that missing support by accompanying victims of crime to court. Over time the Court Companion Service expanded to include victims in metropolitan, regional and rural areas of South Australia.
+  The Court Support Program in 2021 is now delivered in partnership with Victims of Crime SA (VOC SA), the office of the Commissioner for Victims’ Rights,. The program continues to provide support and information to victims of crime who are attending Court to give evidence in support of the crime alleged to have been committed against them. A VSS volunteer will provide support and information to the victim as well as accompany them throughout the trial process. VSS are independently funded through the philanthropic support of individuals and business organisations within South Australia.
   
   For information about our programs and services, please call us on 1800 842 846 or email us.
   
@@ -24,10 +21,7 @@ content: |
 template: VSSadl_metro_district_before
 content: |
   #Attending the pre-court conference    
-  The prosecutor will usually schedule a pre-court conference in which he or she will meet with the witness to go over their statement and give them some idea of what is likely to occur in the courtroom. The witness can use this opportunity to ask any questions they may have about the process and what to expect. You can attend the pre-court conference with the agreement of the witness and the prosecutor.    
-  
-  
-  At this point, you can ask if they can be present in court and (if necessary) whether you can sit near the witness while they give evidence. This pre-court conference may happen the day before court, and in a different location. The prosecutor will let the witness know if, when and where it is being held. 
+  The prosecutor will usually schedule a pre-court conference in which he or she will meet with the witness to go over their statement and give them some idea of what is likely to occur in the courtroom. The witness can use this opportunity to ask any questions they may have about the process and what to expect.  
   
   
   #Arriving at Court   
@@ -157,13 +151,30 @@ content: |
   - When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.    
   
   The statement may include:    
-  - Any physical injury sustained and the effect that this has had on their life    
-  - Details of the emotional impact of the crime on the victim and their family    
-  - Details of the financial impact of the crime    
-  - A comparison of life before the crime and life now    
-  - Where a crime has resulted in the death of a loved one, words about the life of their loved one    
-  - Any other information that is important and relevant.    
-  
+   **Emotional Impacts:**
+  - general feelings of wellbeing or enjoyment of life
+  how the crime has affected any relationships (with partners, family, friends or   co-workers)
+  - any emotions or feelings related to the crime
+  - effects on lifestyle and activities (such as trouble sleeping, eating,           working)
+  - psychological effects of the crime, including any treatment required (such as     depression, anxiety, stress)
+ 
+ **Physical Impacts:**
+  - injuries as a result of the crime (such as broken bones, nerve damage)
+  - how injuries have affected their life (such as work, sport or leisure             activities)
+  - any long term impacts of injuries on their life
+  - any medical treatment required including future or ongoing medical treatment.
+ 
+  **Financial Impacts:**
+  - loss of earnings because of the crime (if a physical or psychological injury     has affected your ability to work)
+  - general expenses caused by the crime (such as home security, replacing items)
+  - travel expenses because of the crime (such as court appearances)
+  - medical treatment needed because of the crime (such as ongoing treatment for     a recurring injury the crime caused).
+ 
+ **Social Impact:**
+ They might describe problems the crime has caused in their daily life, including how the crime has affected:
+ - work or study commitments
+ - family or social life (friendships, social events, sporting commitments)how      safe they feel.
+    
   The statement should not include:    
   - Details of the crime itself the victim’s opinion of the defendant or any information about any    
   other crimes they believe, or know, the defendant to have been involved in or accused of    
@@ -175,6 +186,8 @@ content: |
   - The prosecutor can call the victim to share their verbal statement with the court.    
   - The victim can make a written victim impact statement which may be handed to the judge.    
   The victim may then have a chance to read this out to the court.
+  
+ For more information visit: https://www.voc.sa.gov.au/going-court/victim-impact-statements/preparing-a-victim-impact-statement
 ---
 template: VSSadl_metro_psych_services
 content: |
@@ -253,11 +266,37 @@ content: |
   
   **Email:** tcfsainc@outlook.com
   
+  # Kids Helpline
+  The Kids Helpline is a 24-hour telephone and online  counselling service for young people aged 5–25 years of age.
+
+  **Phone:** 1800 551 800
+
+  **Email:** Counsellor@kidshelpline.com.au
+
+  # eSafety Commissioner
+  eSafety provides Australians with a place to report serious cyberbullying, image-based abuse and illegal online content. 
+
+  **Phone:**  1800 880 176
+  
+  **Email Link:** https://www.esafety.gov.au/about-us/contact-us
+
+  # Mensline Australia
+  Mensline is a telephone and online counselling service for men with family and relationship concerns
+
+  **Phone:** 1300 789 978
+
+  **Chat Link:** https://mensline.org.au/
+
+  # National Sexual Assault, Domestic Violence Counselling Service
+  1800RESPECT is a 24-hour online chat and telephone counselling, information and referral service.
 ---
 template: VSSadl_metro_victims_rights
 content: |
   #Victim Rights    
-  &nbsp;&nbsp;&nbsp;&nbsp;- The Charter of Victims Rights outlines the rights that victims of crime need to know about.    
+  &nbsp;&nbsp;&nbsp;&nbsp;- The Charter of Victims Rights outlines the rights that victims of crime need to know about. 
+  The Commissioner for Victims’ Rights Provides information and support to victims of crime and other functions 
+  Contact them on: (08) 8204 9635 
+  Or visit the website for more information: voc.sa.gov.au/
   
   Victims are expected to be informed about:    
   &nbsp;&nbsp;&nbsp;&nbsp;- How the police investigation is going (unless this may jeopardise the investigation)    
