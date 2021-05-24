@@ -18,7 +18,7 @@ content: |
   ● Redress Support Services - rss@victimsa.org    
   ● General Enquiries - enquiries@victimsa.org
 ---
-template: VSSpt_ag_before
+template: VSSpt_ag_courts
 content: |
   #Attending the pre-court conference    
   The prosecutor will usually schedule a pre-court conference in which he or she will meet with the witness to go over their statement and give them some idea of what is likely to occur in the courtroom. The witness can use this opportunity to ask any questions they may have about the process and what to expect. You can attend the pre-court conference with the agreement of the witness and the prosecutor.    
@@ -29,59 +29,6 @@ content: |
   
   #Arriving at Court   
   You will be advised where to meet, and we recommend arriving 10 minutes before the agreed time. On arrival, meet the witness at your pre-arranged location. When entering the Court, you will go through security screening, placing any bags or other personal items in a tray to be scanned. Please remember not to bring any items such as scissors, glass bottles or anything that could be perceived as a weapon. If you are advised that your clunet is particularly anxious about attending COurt, it can be good to have a chat with the Court Sheriff to put the client at ease when you come in.
----
-template: VSSpt_ag_after
-content: |
-  #After Court Protocols    
-  Being a witness is a difficult task, the client may want to talk to you about the trial after they have given evidence, and they may express a range of emotions.    
-  
-  You can let them debrief, but it is very important that you just listen to them and how they are feeling. Do not provide any opinions on how things have gone, and do not offer any advice.It will be appropropriate to recognise that it would have been a difficult thing for the client to do and that they did their best.    
-  It is not appropriate to say what you think the outcome might be, or to discuss their evidence, or any other evidence given. It may be necessary to gently remind the client about this. Remember that there may be appeals and other hearings to follow, so while the matter is still before the Court, great care must be taken in how things are spoken about.    
-  The client may be distressed, or may express anger and frustration. If you are concerned about the client’s wellbeing, you can make some suggestions to the client about contacting services that are able to assist them. Although you are not responsible for this aspect, it is important that you do know where to refer the client, so they can receive relevant support.
-  
-  #Leaving the Court    
-  After the court proceedings involving the client have wrapped up for the day, it is important to provide support to the client.    
-  
-  Although there may be some sense of relief felt by you and your client, it is important that it is sensitively discussed, as some clients may feel completely lost and let-down. You should let the client know that they have done their best, and you might ask them how they plan to mark the occasion.    
-  
-  It may help to conclude the day by focusing on the practicals, such as how the client is getting home, what they will do when they get home, and who to contact if they need anything organised beyond their day in court. However, you should not contact anyone on their behalf. It is important that it is clear to the client who they should contact for any assistance if required.    
-  
-  The role of the Companion concludes at the end of the scheduled involvement. Good boundaries must be established at this point, and you must not give your client your contract information. If you have any concerns about your client’s general demeanour of they say something which raises concerns for you, but do not suggest harm to themselves or another person, then you should advice the VSS Coordinator or the Witness Assistance Service Officer. If you have serious concerns about the client, it is important that you understand that you are not expected to manage the situation on your own. You can suggest Lifeline to the client for immediate support, as it is available 24/7. It is important that you notify the South Australian Police if there is any risk to the client or any other person. You should debrief with your VSS Coordinator after any such incident and action any self-care strategies that you intend to use to look after yourself.
----
-template: VSSpt_ag_during
-content: |
-  #Attending Court   
-  Ensure you check the Courts List or go to the Information Counter to check which courtroom you need to be in.    
-  
-  
-  Ensure the prosecutor is informed that the witness has arrived and then go to the area where you will be waiting. If a separate, safe place has been arranged, you may need to ask for the bailiff to open the door for you. If no pre-arranged meeting or location has been arranged, go to the courtroom. The prosecutor will do their best to keep the witness updated with the progress of the case and about when they will probably be called to give their evidence.   
-  
-  
-  If you have any concerns about the accused, you should seek the support of the Court Sheriff. You and your client must follow the instructions and processes set out by the Court Sheriff and other court staff.    
-  
-  Ensure that you provide your client with practical information, such as what to expect during the day, and where bathrooms and other relevant facilities are, such as where to make coffee/tea.    
-  
-  
-  Before the client is called into the courtroom, remind them that they should not be worried if, when they look at you during their testimony, you will not provide any positive or negative response. It is also important to remind them to:     
-  &nbsp;&nbsp;&nbsp;&nbsp;- Address the magistrate or judge as ‘Your Honour’;    
-  &nbsp;&nbsp;&nbsp;&nbsp;- Listen carefully to the questions, making sure they understand what is asked before they answer;    
-  &nbsp;&nbsp;&nbsp;&nbsp;- Ask for the question to be repeated if they don’t understand it or if they didn’t hear it properly;    
-  &nbsp;&nbsp;&nbsp;&nbsp;- Never guess an answer to a question. If they don’t know the answer or can’t remember, they should say so;    
-  &nbsp;&nbsp;&nbsp;&nbsp;- Remain calm and speak clearly;    
-  &nbsp;&nbsp;&nbsp;&nbsp;- Not feel pressured to answer a question quickly. They should take their time thinking and answering;    
-  &nbsp;&nbsp;&nbsp;&nbsp;- Remember that the same (or similar) questions may be asked more than once;    
-  &nbsp;&nbsp;&nbsp;&nbsp;- If they feel upset or distressed, pause, take some deep breaths, or have a drink of water. They should continue only when they are ready; and    
-  &nbsp;&nbsp;&nbsp;&nbsp;- Ask for a break if they need to go to the bathroom or if their anxiety is unmanageable.    
-  
-  
-  When the client is called to give evidence, they will be directed to the witness box, unless other provisions have been made. The prosecution witnesses are classed first. Each witness is cross-examined by the defence lawyer, and there may be re-examination if the prosecution requires it.    
-  
-  
-  In the courtroom, you must remain neutral and impartial at all times. You must not react at all while the witness is giving their evidence and it is important to maintain a neutral facial expression and not make any gestures. You must not react negatively to difficult questions during cross-examination by the defence lawyer, and must appear to remain neutral. You must not touch the client, even if it seems like an appropriate act of reassurance.
----
-template: VSSpt_ag_layout
-content: |
-   ![Court Layout](https://docassemble.flinders.edu.au/playgroundstatic/default/279/Court_Layout.jpg)
 ---
 template: VSSpt_ag_vis
 content: |

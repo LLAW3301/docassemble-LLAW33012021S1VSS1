@@ -5,15 +5,8 @@ data:
   Port Augusta:
     about_us: |
       ${ VSSpt_ag_about_us }
-    courts:
-      before_court: |
-        ${ VSSpt_ag_before }
-      after_court: |
-        ${ VSSpt_ag_after }
-      during_court: |
-        ${ VSSpt_ag_during }
-      court_layout: |
-        ${ VSSpt_ag_layout }
+    courts: |
+      ${ VSSpt_ag_courts }
     vis: |
       ${ VSSpt_ag_vis }
     psych_services: |
@@ -51,15 +44,8 @@ data:
   Mt Gambier:
     about_us: |
       ${ VSSmt_g_about_us }
-    courts:
-      before_court: |
-        ${ VSSmt_g_before }
-      after_court: |
-        ${ VSSmt_g_after }
-      during_court: |
-        ${ VSSmt_g_during }
-      court_layout: |
-        ${ VSSmt_g_layout }
+    courts: |
+      ${ VSSmt_g_courts }
     vis: |
       ${ VSSmt_g_vis }
     psych_services: |

@@ -37,10 +37,10 @@ question: Victim Support Suervice Companion\'s Guide
 subquestion: |
   % if (VSSlocation == 'Interstate'):
   ${ VSSdata[VSSlocation] }
-  % elif (VSSlocation != 'Interstate' and VSScategories != 'courts'):
+  % elif (VSSlocation == 'Port Augusta') or (VSSlocation == 'Mt Gambier'):
+  ${ VSSdata[VSSlocation][VSScategories] } 
+  % elif (VSSlocation == 'Adelaide Metro' and VSScategories != 'courts'):
   ${ VSSdata[VSSlocation][VSScategories] }
-  % elif (VSSlocation == 'Port Augusta' and VSScategories == 'courts') or (VSSlocation == 'Mt Gambier' and VSScategories == 'courts'):
-  ${ VSSdata[VSSlocation][VSScategories][VSScourt_subcat] } 
   % elif (VSSlocation == 'Adelaide Metro' and VSScategories == 'courts'):
   ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
   % endif   
