@@ -86,16 +86,33 @@ content: |
 template: VSSmt_g_vis
 content: |
   #Victim Impact Statements    
-  - When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.    
+    - When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.    
   
   The statement may include:    
-  - Any physical injury sustained and the effect that this has had on their life    
-  - Details of the emotional impact of the crime on the victim and their family    
-  - Details of the financial impact of the crime    
-  - A comparison of life before the crime and life now    
-  - Where a crime has resulted in the death of a loved one, words about the life of their loved one    
-  - Any other information that is important and relevant.    
-  
+   **Emotional Impacts:**
+  - general feelings of wellbeing or enjoyment of life
+  how the crime has affected any relationships (with partners, family, friends or   co-workers)
+  - any emotions or feelings related to the crime
+  - effects on lifestyle and activities (such as trouble sleeping, eating,           working)
+  - psychological effects of the crime, including any treatment required (such as     depression, anxiety, stress)
+ 
+ **Physical Impacts:**
+  - injuries as a result of the crime (such as broken bones, nerve damage)
+  - how injuries have affected their life (such as work, sport or leisure             activities)
+  - any long term impacts of injuries on their life
+  - any medical treatment required including future or ongoing medical treatment.
+ 
+  **Financial Impacts:**
+  - loss of earnings because of the crime (if a physical or psychological injury     has affected your ability to work)
+  - general expenses caused by the crime (such as home security, replacing items)
+  - travel expenses because of the crime (such as court appearances)
+  - medical treatment needed because of the crime (such as ongoing treatment for     a recurring injury the crime caused).
+ 
+ **Social Impact:**
+ They might describe problems the crime has caused in their daily life, including how the crime has affected:
+ - work or study commitments
+ - family or social life (friendships, social events, sporting commitments)how      safe they feel.
+    
   The statement should not include:    
   - Details of the crime itself the victim’s opinion of the defendant or any information about any    
   other crimes they believe, or know, the defendant to have been involved in or accused of    
@@ -107,6 +124,8 @@ content: |
   - The prosecutor can call the victim to share their verbal statement with the court.    
   - The victim can make a written victim impact statement which may be handed to the judge.    
   The victim may then have a chance to read this out to the court.
+  
+ For more information visit: https://www.voc.sa.gov.au/going-court/victim-impact-statements/preparing-a-victim-impact-statement
 ---
 template: VSSmt_g_psych_services
 content: |
@@ -114,9 +133,22 @@ content: |
 ---
 template: VSSmt_g_victims_rights
 content: |
-  #Victim Rights    
-  &nbsp;&nbsp;&nbsp;&nbsp;- The Charter of Victims Rights outlines the rights that victims of crime need to know about.    
-  
+  #Victim Rights
+  &nbsp;&nbsp;&nbsp;&nbsp;- The Commissioner for Victims’ Rights Provides information and support to victims of crime and other functions 
+  Contact them on: (08) 8204 9635 
+  Or visit the website for more information: voc.sa.gov.au/
+
+ **Vulnerable Witnesses**
+ Under the Evidence Act, 1929 (SA) special arrangements can be made for witnesses deemed to be “vulnerable” in order to protect them from:
+ - Embarrassment or distress
+ - Being intimidated by the atmosphere of the courtroom, or
+ - For any other proper reason
+ 
+ Some of these special arrangements include: 
+ - **Court Companion:** This allows for witnesses to be accompanied by a volunteer, friend, family member or social worker who is not a witness in the case for the purpose of providing them with a familiar and supportive physical presence whilst you give their evidence. 
+ - **Closed Circuit Television:** This allows witnesses to give evidence from a separate room, instead of the courtroom, and have it transmitted to the courtroom via CCTV. 
+ - **One-way screen:** This means a One-Way Screen is placed between the witness and the accused person so it blocks their view of him or her. It is important to note that the screen acts as a one-way barrier and the accused can see the witness whilst giving evidence.
+
   Victims are expected to be informed about:    
   &nbsp;&nbsp;&nbsp;&nbsp;- How the police investigation is going (unless this may jeopardise the investigation)    
   &nbsp;&nbsp;&nbsp;&nbsp;- Court and trial processes, including dates, how to attend, and what the victim of crime’s role    
