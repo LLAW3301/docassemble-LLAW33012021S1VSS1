@@ -1,29 +1,63 @@
+metadata:
+  title: |
+    Victim Support Services SA Companions Handbook
+  short title: |
+    Companions Handbook
+  organisation: Victim Support Services SA
+---
+features:
+  css: temporary.css
 ---
 include:
   - VSS_questions.yml
-  - VSSadl_metro_templates.yml
   - VSSdata.yml
+  - VSSadl_metro_templates.yml
+  - VSSpt_ag_templates.yml
+  - VSSmt_g_templates.yml
+  - VSSinterstate_templates.yml
 ---
+#welcome screen
 mandatory: True
-question: Welcome screen
+question: Victim Support Service Companion\'s Guide 
 subquestion: |
-  welcome text will go here
+  Welcome to the Victim Support Service (VSS) Companion’s Guide. This application is designed to provide Court Companions with quick access to information, to assist them in providing support to clients of the court support program.
   
-  Disclaimer goes here
+  ***Disclaimer***    
+  This is a guide to selected agencies and services only and may not include all services.    
+  There are no guarantees that any individual agency or service will accept an enquiry or provide services.    
+  This application does not provide legal advice.    
+  Please select one of the following to accept or decline these terms.    
+  
+  
+  Do you accept these terms?
+  
 buttons:
   - Continue: continue
   - Exit: exit
 ---
 mandatory: True
 code: |
-  final_screen
+  info_page
 ---
-event: final_screen
-question: The final screen
+#making the program only ask the questions required depending on location or whether they've selected the courts category or not
+back button: True
+event: info_page
+question: Victim Support Service Companion\'s Guide
 subquestion: |
-  % if VSScategories == 'courts':
-  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
-  % else:
+  % if (VSSlocation == 'Interstate'):
+  ${ VSSdata[VSSlocation] }
+  % elif (VSSlocation == 'Port Augusta') or (VSSlocation == 'Mt Gambier'):
   ${ VSSdata[VSSlocation][VSScategories] }
-  % endif
+  % elif (VSSlocation == 'Adelaide Metro' and VSScategories != 'courts'):
+  ${ VSSdata[VSSlocation][VSScategories] } 
+  % elif (VSSlocation == 'Adelaide Metro' and VSScategories == 'courts'):
+  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
+  % endif   
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: Handbook Information
+  docx template file: Handbook_Template.docx
+  valid formats:
+    - pdf
 ---

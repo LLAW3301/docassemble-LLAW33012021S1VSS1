@@ -1,0 +1,142 @@
+#templates for all pages in Mount Gambier
+include:
+  - VSS_questions.yml
+---
+template: VSSmt_g_about_us
+content: |
+  #About us/Contact us     
+  In 2021 the Victim Support Service (VSS) celebrated 40 years of providing continuous service and support to victims of crime in South Australia. The core service provided during all of that time has been the Court Companion program that is delivered by trained and experienced volunteers.     
+  
+  The Court Companion program began in 1981 after retired Queensland Police Commissioner Ray Whitrod identified that victims of crime lacked support when attending court to give evidence during a criminal trial. Following a talk delivered by Mr Whitrod and his wife Mavis to the SA Dental Wives, those present volunteered to provide that missing support by accompanying victims of crime to court. Over time the Court Companion Service expanded to include victims in metropolitan, regional and rural areas of South Australia.     
+  
+  The Court Support Program in 2021 is now delivered in partnership with Victims of Crime SA (VOC SA), the office of the Commissioner for Victims’ Rights,. The program continues to provide support and information to victims of crime who are attending Court to give evidence in support of the crime alleged to have been committed against them. A VSS volunteer will provide support and information to the victim as well as accompany them throughout the trial process.     
+  
+  VSS are independently funded through the philanthropic support of individuals and business organisations within South Australia. 
+
+  
+  **Call** 1800 842 846
+  
+  **Email us:**    
+  &nbsp;&nbsp;&nbsp;&nbsp;● Staying Home Staying Safe - shss@victimsa.org    
+  &nbsp;&nbsp;&nbsp;&nbsp;● Redress Support Services - rss@victimsa.org    
+  &nbsp;&nbsp;&nbsp;&nbsp;● General Enquiries - enquiries@victimsa.org
+---
+template: VSSmt_g_courts
+content: |
+  #Magistrates Court    
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Magistrates Court is conducted most weekdays.    
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Court Room 1 is located on the 1st floor (a lift is available). Public seating is available directly outside the courtroom with small offices nearby for use by Prosecution and Defence counsel.      
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Toilet facilities are available next door to the courtroom.    
+  
+  #District Court
+  &nbsp;&nbsp;&nbsp;&nbsp;-	The District Court visits Mount Gambier 3 times per year – March, July & November for approximately 4 weeks each of these months.     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	The District Court is held in Court Room 2 which is located on the ground floor.    
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Generally, witnesses appearing for the Defence wait in this public area. There is a separate waiting room for witnesses appearing for the Prosecution.     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Toilet facilities are available on this floor.    
+  
+  #Location & Opening Hours     
+  **Add:** 41 Bay Road    
+  **Open:**  9-5 Weekdays    
+  **Ph:** 87351060    
+  
+  #Video Conferencing Suite    
+  &nbsp;&nbsp;&nbsp;&nbsp;-	The facilities are used for a range of court matters including Magistrates and District Courts.  The suite is situated down a passage away from the general waiting area and is located next door to the Witness Waiting Room.    
+  
+  #Witness Waiting Room
+  &nbsp;&nbsp;&nbsp;&nbsp;-	This room is for the use of Prosecution witnesses, family and supporters.     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Tea and coffee facilities are available in this room.     
+  
+  #Sheriff's Officers
+  &nbsp;&nbsp;&nbsp;&nbsp;-	These officers ensure the safety of witnesses whilst they are in the Court House. They are stationed at the entrance to the building.     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Any questions of a general nature for instance, about the scheduling of the court matter can be directed to one of these officers.     
+  
+  #Disabled Access
+  &nbsp;&nbsp;&nbsp;&nbsp;-	An access ramp is located at the front entrance to the building.    
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Accessible toilets are located in the main foyer.    
+  &nbsp;&nbsp;&nbsp;&nbsp;-	A lift is available for use for people using the Magistrates Court on 1st floor.
+  
+  #Transport    
+  **Car Parking**    
+  &nbsp;&nbsp;&nbsp;&nbsp;Off street parking is available at the rear of the Court House. There is no cost for parking.    
+  **Taxi Services**    
+  &nbsp;&nbsp;&nbsp;&nbsp;A taxi rank is located close to the Court House on Bay Road.    
+  **Cafe**    
+  &nbsp;&nbsp;&nbsp;&nbsp;A Café (Bay Blue) is located next door to the Court House. It serves a range of drinks and light meals. 
+
+---
+template: VSSmt_g_vis
+content: |
+  #Victim Impact Statements     
+  When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.
+  
+  The statement may include:
+  
+  ##Emotional Impacts:
+  &nbsp;&nbsp;&nbsp;&nbsp;-	general feelings of wellbeing or enjoyment of life     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	how the crime has affected any relationships (with partners, family, friends or co-workers)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	any emotions or feelings related to the crime     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	effects on lifestyle and activities (such as trouble sleeping, eating, working)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	psychological effects of the crime, including any treatment required (such as depression, anxiety, stress)     
+  
+  ##Physical Impacts     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	injuries as a result of the crime (such as broken bones, nerve damage)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	how injuries have affected their life (such as work, sport or leisure activities)   
+  &nbsp;&nbsp;&nbsp;&nbsp;-	any long term impacts of injuries on their life     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	any medical treatment required including future or ongoing medical treatment.     
+  
+  ##Financial Impacts:     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	loss of earnings because of the crime (if a physical or psychological injury has affected your ability to work)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	general expenses caused by the crime (such as home security, replacing items)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	travel expenses because of the crime (such as court appearances)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	medical treatment needed because of the crime (such as ongoing treatment for a recurring injury the crime caused).     
+  
+  ##Social Impact:
+  They might describe problems the crime has caused in their daily life, including how the crime has affected:     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	work or study commitments     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	family or social life (friendships, social events, sporting commitments)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	how safe they feel.    
+  
+  The statement should not include:     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Details of the crime itself the victim’s opinion of the defendant or any information about any other crimes they believe, or know, the defendant to have been involved in or accused of     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Any information that is not factually correct. (For example, any medical diagnosis needs to be supported by documents from the victim’s doctor)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Any offensive or inappropriate language. (It should be written in simple, descriptive words.)     
+  
+  How does the witness make the victim impact statement?     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	The prosecutor can speak to the court on behalf of the victim.     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	The prosecutor can call the victim to share their verbal statement with the court.   
+  &nbsp;&nbsp;&nbsp;&nbsp;-	The victim can make a written victim impact statement which may be handed to the judge. The victim may then have a chance to read this out to the court.
+
+
+---
+template: VSSmt_g_psych_services
+content: |
+  Information about Psych services
+---
+template: VSSmt_g_victims_rights
+content: |
+  #Victim Rights       
+  
+  The Commissioner for Victims’ Rights Provides information and support to victims of crime and other functions      
+  Contact them on: (08) 8204 9635      
+  Or visit the website for more information: voc.sa.gov.au/     
+  
+  ##Vulnerable Witnesses     
+  Under the Evidence Act, 1929 (SA) special arrangements can be made for witnesses deemed to be *“vulnerable”* in order to protect them from:     
+  &nbsp;&nbsp;&nbsp;&nbsp;*Embarrassment or distress*     
+  &nbsp;&nbsp;&nbsp;&nbsp;*Being intimidated by the atmosphere of the courtroom, or*     
+  &nbsp;&nbsp;&nbsp;&nbsp;*For any other proper reason*     
+  
+  **Some of these special arrangements include: **     
+  &nbsp;&nbsp;&nbsp;&nbsp;**-	Court Companion:** This allows for witnesses to be accompanied by a volunteer, friend, family member or social worker who is not a witness in the case for the purpose of providing them with a familiar and supportive physical presence whilst you give their evidence.      
+  &nbsp;&nbsp;&nbsp;&nbsp;**-	Closed Circuit Television:** This allows witnesses to give evidence from a separate room, instead of the courtroom, and have it transmitted to the courtroom via CCTV.      
+  &nbsp;&nbsp;&nbsp;&nbsp;**-	One-way screen:** This means a One-Way Screen is placed between the witness and the accused person so it blocks their view of him or her. It is important to note that the screen acts as a one-way barrier and the accused can see the witness whilst giving evidence.     
+  ##Victims are expected to be informed about:
+  &nbsp;&nbsp;&nbsp;&nbsp;-	How the police investigation is going (unless this may jeopardise the investigation)     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Court and trial processes, including dates, how to attend, and what the victim of crime’s role will be as a witness.     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	The name of the accused person, whether they are being charged and what with, if a warrant is issued for their arrest, and any programs available to them.     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Any application of bail made by the accused person, outcomes of the application, and arrangements made for release, including any special conditions that may affect the victim of crime’s welfare.     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	The defendant’s period of imprisonment, and to write to the parole board if a decision is to be made about granting parole to the defendant.     
+  ##Victims also have a righ to:     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Be protected at court from unnecessary contact with the accused person and their family members or friends     
+  &nbsp;&nbsp;&nbsp;&nbsp;-	Make a victim impact statement that may be presented to the court at sentencing if the accused is found guilty
+---

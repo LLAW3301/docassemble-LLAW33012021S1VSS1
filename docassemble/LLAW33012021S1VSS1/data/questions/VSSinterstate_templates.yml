@@ -1,0 +1,153 @@
+#templates for all pages in metro adl
+include:
+  - VSS_questions.yml
+---
+template: VSSinterstate_about_us
+content: |
+  #Interstate Jurisdictions - Victim Assistance Services   
+  
+  ##New South Wales Victims Services   
+  
+  Website: https://www.victimsservices.justice.nsw.gov.au/   
+  
+  Victims Access Line   
+  - The Victims Access Line is the single entry point for victims of crime in NSW to access services.   
+  
+  **Victims Access Line:** 1800 633 063  
+  
+  **Aboriginal Contact Line:** 1800 019 123  
+  
+  **Business hours:** 9am to 5pm, Monday to Friday (excluding public holidays)  
+  
+  **Email:**  
+  **&nbsp;&nbsp;&nbsp;&nbsp;- Email:** vs@dcj.nsw.gov.au  
+  **&nbsp;&nbsp;&nbsp;&nbsp;- FFMPU email:** ffmpu@dcj.nsw.gov.au
+  
+  ##ACT Victims Services   
+  **website :** https://www.victimsupport.act.gov.au/   
+  
+  **Phone:** 1800 8222 72 or (02) 6205 2066   
+  
+  **Fax:** 02 6205 0177   
+  
+  Level 1, 5 Constitution Avenue Canberra City.
+  
+  ##Victoria Victims Services   
+  
+  **Website:** https://www.victimsofcrime.vic.gov.au/   
+  **Victims of Crime Helpline**   
+  The Victim of Crime Helpline can assist you to:   
+  &nbsp;&nbsp;&nbsp;&nbsp;- get advice about reporting a crime    
+  &nbsp;&nbsp;&nbsp;&nbsp;- find other services that can help you  
+  &nbsp;&nbsp;&nbsp;&nbsp;- get information about the court process  
+  &nbsp;&nbsp;&nbsp;&nbsp;- get help applying for compensation and financial assistance.
+  
+  **Opening Hours:** 8am–11pm, 7 days a week  
+  **Call:** 1800 819 817  
+  **Text:** 0427 767 891  
+  **Email:** vsa@justice.vic.gov.au
+  
+  ##Tasmania Victims Services  
+  **Website:** https://www.justice.tas.gov.au/victims/services/victimsofcrime  
+  ###Hobart  
+    Level 1, 54 Victoria Street, Hobart  
+  
+  **Telephone:** (03) 6165 7524 or 1300 663 773 (toll free)  
+  
+  **Fax:** (03) 6173 0215  
+  
+  **Email:** victims@justice.tas.gov.au  
+  
+  ###Launceston  
+    Level 3, Henty House, 1 Civic Square, Launceston  
+  
+  **Telephone:** (03) 6777 2939 or 1300 663 773 (toll free)  
+  
+  **Fax:** (03) 6173 0215  
+  
+  ###Burnie  
+    Level 1 54 -56 Mount Street Burnie TAS 7320  
+  
+  **Telephone:** (03) 6477 7133 or 1300 663 773 (toll free)  
+  
+  **Fax:** (03) 6173 0215  
+  
+  **Telephone:** (03) 6165 7524 or 1300 663 773 (toll free)  
+  
+  ##Western Australia Victims Service  
+    **Website:** https://www.victimsofcrime.wa.gov.au/  
+  
+  ###Commissioner for Victims of Crime  
+  
+  GPO Box F317 PERTH WA 6841  
+  
+  **Phone:** (08) 9264 1600 or (08) 9425 2973  
+  
+  **Email:** cvoc@justice.wa.gov.au  
+  
+  ###Criminal Injuries Compensation  
+    Level 10, 32 St Georges Terrace PERTH WA 6000  
+  
+  **Phone:** (08) 9425 3250  
+  
+  **Email:** criminal.injuries@justice.wa.gov.au  
+  
+  ###Victim Notification Registry  
+    GPO Box 6702 PERTH WA 6892  
+  
+  **Phone:** (08) 9425 2870  
+  
+  **Facsimile:** (08) 9425 2869  
+  
+  **Freecall:**1800 818 988 (outside metro only)  
+  
+  **Email:** vnr@justice.wa.gov.au  
+  
+  ###Victim Support and Child Witness Service  
+    District Court Building, Level 2, 500 Hay Street PERTH WA 6000  
+  
+  **Phone:** (08) 9425 2850  
+  
+  **Facsimile:** (08) 9425 4428  
+  
+  **Freecall:**1800 818 988  
+  
+  **Email:** vss@justice.wa.gov.au  
+  
+  ##Northern Territory Victims Services  
+  **Website:** https://victimsofcrime.org.au/  
+  
+  **For 24-hour support, contact:** 1800 672 242  
+  
+  ###Darwin  
+  
+  **Phone:** (08) 8941 0995  
+  **Email:** admin@victimsofcrime.org.au  
+  
+  **Address:** Level 2, NAB House, 71 Smith Street, Darwin NT 0800  
+  
+  ###Alice Springs  
+  **Phone:** (08) 8952 4466  
+  
+  **Email:** as.office@victimsofcrime.org.au  
+  
+  **Address:** 4/15 Leichhardt Terrace, Alice Springs NT 0870  
+  
+  ###Tennant Creek  
+  **Phone:** (08) 8952 4466  
+  
+  **Email:** supporttc@victimsofcrime.org.au  
+  
+  **Address:** Paterson Street Hub, 139 Paterson Street, Tennant Creek NT 0860  
+  
+  ##Queensland Victims Services  
+  
+  **Website:** https://www.qld.gov.au/law/crime-and-police/victims-and-witnesses-of-crime  
+  
+  ###Victim Assist  
+  
+  **Phone:** 1300 546 587  
+  
+  **Email:** victimassist@justice.qld.gov.au
+  
+---
