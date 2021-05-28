@@ -1,12 +1,45 @@
+---
 metadata:
   title: |
-    Victim Support Services SA Companions Handbook
+    Victim Support Services SA Companion's Handbook
   short title: |
-    Companions Handbook
-  organisation: Victim Support Services SA
+    VSS Companion's Handbook
+  authors:
+    - name: Sam George
+    - name: Ruby Brooks
+    - name: Kristina Mandelos
+    - name: Hannah Goldman
+  organisation: Flinders University
+  show login: False
+  exit url: https://www.victimsa.org/
+  exit label: Exit to VSS Website
+---
+sections:
+  - Disclaimer
+  - Location
+  - Categories:
+    - About Us
+    - Courts
+    - Victim Impact Statements
+    - Psychological Services
+    - Victims' Rights
 ---
 features:
   css: temporary.css
+  debug: False
+  hide standard menu: True
+  navigation back button: True
+  navigation: True
+---
+objects:
+  - VSSlogo: DAStaticFile.using(filename='VSSHeader.png')
+---
+mandatory: True
+decoration: star
+code: |
+  VSSlogostring = '<img src="{}"height="40">'.format(VSSlogo.url_for()) 
+  set_parts(title=VSSlogostring + " Victim Support Services SA Companion's Handbook")
+  set_parts(tab = "Victim Support Services SA Companion's Handbook")
 ---
 include:
   - VSS_questions.yml
@@ -18,22 +51,30 @@ include:
 ---
 #welcome screen
 mandatory: True
-question: Victim Support Service Companion\'s Guide 
+question: | 
+  <span class="VSSHeading">
+  Victim Support Service Companion's Guide 
+  </span>
 subquestion: |
-  Welcome to the Victim Support Service (VSS) Companion’s Guide. This application is designed to provide Court Companions with quick access to information, to assist them in providing support to clients of the court support program.
+
+  #####<span class="VSSDisclaimer">Welcome</span>      
+  Welcome to the Victim Support Service (VSS) Companion’s Guide.    
   
-  ***Disclaimer***    
-  This is a guide to selected agencies and services only and may not include all services.    
-  There are no guarantees that any individual agency or service will accept an enquiry or provide services.    
-  This application does not provide legal advice.    
-  Please select one of the following to accept or decline these terms.    
+  This application is designed to provide Court Companions with quick access to information, to assist them in providing support to clients of the court support program.    
+    <hr>
   
+  ######<span class="VSSDisclaimer">Disclaimer</span>
+
+  * *This is a guide to selected agencies and services only and may not include all services.*
+  * *There are no guarantees that any individual agency or service will accept an enquiry or provide services.*
+  * *This application does not provide legal advice.*     
   
-  Do you accept these terms?
-  
+  Please select one of the following to accept or decline these terms. 
 buttons:
-  - Continue: continue
-  - Exit: exit
+  - I agree: continue
+  - I do not agree: exit
+    url: https://www.victimsa.org/    
+section: Disclaimer      
 ---
 mandatory: True
 code: |
@@ -42,16 +83,17 @@ code: |
 #making the program only ask the questions required depending on location or whether they've selected the courts category or not
 back button: True
 event: info_page
-question: Victim Support Service Companion\'s Guide
+question: |
+  <span class="VSSHeading">
+  Victim Support Service Companion's Guide 
+  </span>
 subquestion: |
   % if (VSSlocation == 'Interstate'):
   ${ VSSdata[VSSlocation] }
-  % elif (VSSlocation == 'Port Augusta') or (VSSlocation == 'Mt Gambier'):
-  ${ VSSdata[VSSlocation][VSScategories] }
-  % elif (VSSlocation == 'Adelaide Metro' and VSScategories != 'courts'):
+  % elif (VSSlocation == 'Port Augusta') or (VSSlocation == 'Mt Gambier') or (VSSlocation == 'Adelaide Metro' and VSScategories != 'courts'):
   ${ VSSdata[VSSlocation][VSScategories] } 
   % elif (VSSlocation == 'Adelaide Metro' and VSScategories == 'courts'):
-  ${ VSSdata[VSSlocation][VSScategories][VSScourt][VSScourt_subcat] }
+  ${ VSSdata[VSSlocation][VSScategories][VSScourt_subcat] }
   % endif   
   
   **Download or email this information as a PDF**  

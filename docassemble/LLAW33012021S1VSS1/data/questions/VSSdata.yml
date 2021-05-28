@@ -17,24 +17,14 @@ data:
     about_us: |
       ${ VSSadl_metro_about_us }
     courts:
-      District Court:
-        before_court: |
-          ${ VSSadl_metro_district_before }
-        after_court: |
-          ${ VSSadl_metro_district_after }
-        during_court: |
-          ${ VSSadl_metro_district_during }
-        court_layout: |
-          ${ VSSadl_metro_district_layout}
-      Supreme Court:
-        before_court: |
-          ${ VSSadl_metro_supreme_before }
-        after_court: |
-          ${ VSSadl_metro_supreme_after }
-        during_court: |
-          ${ VSSadl_metro_supreme_during }
-        court_layout: |
-          ${ VSSadl_metro_supreme_layout }
+      before_court: |
+        ${ VSSadl_metro_court_before }
+      after_court: |
+        ${ VSSadl_metro_court_after }
+      during_court: |
+        ${ VSSadl_metro_court_during }
+      court_layout: |
+        ${ VSSadl_metro_court_layout }
     vis: |
       ${ VSSadl_metro_vis }
     psych_services: |
