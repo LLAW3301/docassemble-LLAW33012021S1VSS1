@@ -3,7 +3,7 @@
 back button: True
 question: |  
   <span class="VSSHeading">
-  VSS Companions' Guide 
+  What is your location? 
   </span>
 subquestion: |
   #####<span class="VSSDisclaimer">What is your location?</span>   
@@ -21,10 +21,10 @@ section: Location
 back button: True
 question: |
   <span class="VSSHeading">
-  VSS Companions' Guide 
+  What would you like information on? 
   </span>
 subuquestion: |
-  #####<span class="VSSDisclaimer">What would you like information on?</span> 
+  #####<span class="VSSDisclaimer">Please select from the information below</span> 
 fields: 
   - no label: VSScategories
     datatype: radio
@@ -40,7 +40,7 @@ section: Categories
 back button: True
 question: |
   <span class="VSSHeading">
-  VSS Companions' Guide 
+  Court Protocols
   </span>
 subquestion: |
   #####<span class="VSSDisclaimer">What court protocols would you like information on?</span> 
