@@ -71,8 +71,8 @@ subquestion: |
   
   Please select one of the following to accept or decline these terms. 
 buttons:
-  - I agree: continue
-  - I do not agree: exit
+  - I accept: continue
+  - I do not accept: exit
     url: https://www.victimsa.org/    
 section: Disclaimer      
 ---
