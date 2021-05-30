@@ -1,9 +1,9 @@
 ---
 metadata:
   title: |
-    Victim Support Services SA Companion's Handbook
+    Victim Support Service SA Companions' Guide
   short title: |
-    VSS Companion's Handbook
+    VSS Companions' Guide
   authors:
     - name: Sam George
     - name: Ruby Brooks
@@ -38,8 +38,8 @@ mandatory: True
 decoration: star
 code: |
   VSSlogostring = '<img src="{}"height="40">'.format(VSSlogo.url_for()) 
-  set_parts(title=VSSlogostring + " Victim Support Services SA Companion's Handbook")
-  set_parts(tab = "Victim Support Services SA Companion's Handbook")
+  set_parts(title=VSSlogostring + " Victim Support Services SA Companions' Guide")
+  set_parts(tab = "Victim Support Services SA Companions' Guide")
 ---
 include:
   - VSS_questions.yml
@@ -53,12 +53,12 @@ include:
 mandatory: True
 question: | 
   <span class="VSSHeading">
-  Victim Support Service Companion's Guide 
+  Victim Support Service Companions' Guide 
   </span>
 subquestion: |
 
   #####<span class="VSSDisclaimer">Welcome</span>      
-  Welcome to the Victim Support Service (VSS) Companion’s Guide.    
+  Welcome to the Victim Support Service (VSS) Companions' Guide.    
   
   This application is designed to:
   
@@ -88,7 +88,7 @@ back button: True
 event: info_page
 question: |
   <span class="VSSHeading">
-  Victim Support Service Companion's Guide 
+  VSS Companions' Guide 
   </span>
 subquestion: |
   % if (VSSlocation == 'Interstate'):

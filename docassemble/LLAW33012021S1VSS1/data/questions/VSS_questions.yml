@@ -3,7 +3,7 @@
 back button: True
 question: |  
   <span class="VSSHeading">
-  Victim Support Service Companion's Guide 
+  VSS Companions' Guide 
   </span>
 subquestion: |
   #####<span class="VSSDisclaimer">What is your location?</span>   
@@ -13,7 +13,7 @@ fields:
     choices:
       - "Adelaide Metro": Adelaide Metro
       - "Port Augusta": Port Augusta
-      - "Mt Gambier": Mt Gambier
+      - "Mount Gambier": Mt Gambier
       - "Interstate": Interstate
 section: Location      
 ---
@@ -21,10 +21,10 @@ section: Location
 back button: True
 question: |
   <span class="VSSHeading">
-  Victim Support Service Companion's Guide 
+  VSS Companions' Guide 
   </span>
 subuquestion: |
-  #####<span class="VSSDisclaimer">Write some info on different choices?</span> 
+  #####<span class="VSSDisclaimer">What would you like information on?</span> 
 fields: 
   - no label: VSScategories
     datatype: radio
@@ -40,10 +40,10 @@ section: Categories
 back button: True
 question: |
   <span class="VSSHeading">
-  Victim Support Service Companion's Guide 
+  VSS Companions' Guide 
   </span>
 subquestion: |
-  #####<span class="VSSDisclaimer">text describing court categories</span> 
+  #####<span class="VSSDisclaimer">What court protocols would you like information on?</span> 
   
 fields:
   -  no label: VSScourt_subcat
