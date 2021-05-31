@@ -4,7 +4,8 @@ include:
 ---
 template: VSSpt_ag_about_us
 content: |
-  #####<span class="VSSDisclaimer">About us</span>    
+  #<span class="VSSDisclaimer">About us</span>    
+  <hr>
   
   In 2021 the Victim Support Service (VSS) celebrated 40 years of providing continuous service and support to victims of crime in South Australia. The core service provided during all of that time has been the Court Companion program that is delivered by trained and experienced volunteers.     
   
@@ -33,6 +34,8 @@ content: |
 ---
 template: VSSpt_ag_courts
 content: |
+  #<span class="VSSDisclaimer">Courts</span>    
+  <hr>
   ####Magistrate Court Layout:
 
   * Court Rooms 1 and 2 are located at the end of the entry corridor.   
@@ -77,7 +80,7 @@ content: |
 ---
 template: VSSpt_ag_vis
 content: |
-  ###Victim Impact Statements     
+  #<span class="VSSDisclaimer">Victim Impact Statements</span>    
   When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.    
   
   The statement may include:
@@ -126,9 +129,7 @@ content: |
 ---
 template: VSSpt_ag_psych_services
 content: |
-  ###Psychological Services    
-  <hr>
-  [https://www.voc.sa.gov.au/help-and-resources/support-services/counselling-and-support](https://www.voc.sa.gov.au/help-and-resources/support-services/counselling-and-support)
+  #<span class="VSSDisclaimer">Psychological Services</span>    
   <hr>
   ####Rebuild - Relationships Australia South Australia
   Provides trauma-based counselling and peer support to adult and child victims of crime as they move through the criminal justice process.   
@@ -236,7 +237,7 @@ content: |
 ---
 template: VSSpt_ag_victims_rights
 content: |
-  ###Victim Rights       
+  #<span class="VSSDisclaimer">Victims Rights</span>    
   
   The Commissioner for Victims’ Rights Provides information and support to victims of crime and other functions      
   

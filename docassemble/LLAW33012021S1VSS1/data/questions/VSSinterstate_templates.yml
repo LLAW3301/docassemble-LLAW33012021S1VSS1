@@ -4,9 +4,9 @@ include:
 ---
 template: VSSinterstate_about_us
 content: |
-  ###<span class="VSSInterstate">Interstate Jurisdictions - Victim Assistance Services </span>
+  #<span class="VSSInterstate">Interstate Jurisdictions - Victim Assistance Services </span>
   <hr>  
-  ###New South Wales Victims Services   
+  ##<span class="VSSInterstate">New South Wales Victims Service </span>  
     
   **Website:** 
   [https://www.victimsservices.justice.nsw.gov.au](https://www.victimsservices.justice.nsw.gov.au)    
@@ -26,7 +26,7 @@ content: |
   FFMPU email: 
   [ffmpu@dcj.nsw.gov.au](ffmpu@dcj.nsw.gov.au)
   <hr>  
-  ###ACT Victims Services   
+  ##<span class="VSSInterstate">ACT Victims Services</span>    
   **website :** [https://www.victimsupport.act.gov.au](https://www.victimsupport.act.gov.au)   
   
   **Phone:** <a href="tel:1800 8222 72">1800 8222 72</a> or <a href="tel:(02) 6205 2066">(02) 6205 2066</a>   
@@ -35,7 +35,7 @@ content: |
   
   **Address:** Level 1, 5 Constitution Avenue Canberra City.
   <hr>
-  ###Victoria Victims Services   
+  ##<span class="VSSInterstate">Victoria Victims Services </span>    
   
   **Website:** [https://www.victimsofcrime.vic.gov.au]([https://www.victimsofcrime.vic.gov.au])   
   **Victims of Crime Helpline**   
@@ -51,7 +51,7 @@ content: |
   **Text:** <a href="tel:0427 767 891">0427 767 891</a>  
   **Email:** [vsa@justice.vic.gov.au](mailto:vsa@justice.vic.gov.au)
   <hr>
-  ###Tasmania Victims Services  
+  ##<span class="VSSInterstate">Tasmania Victim Services</span>    
   **Website:** [https://www.justice.tas.gov.au/victims/services/victimsofcrime](https://www.justice.tas.gov.au/victims/services/victimsofcrime)  
   ####Hobart  
     **Address:** Level 1, 54 Victoria Street, Hobart  
@@ -72,7 +72,7 @@ content: |
   **Telephone:** <a href="tel:(03) 6477 7133">(03) 6477 7133</a> or <a href="tel:1300 663 773">1300 663 773</a> (toll free)    
   **Fax:** <a href="tel:(03) 6173 0215">(03) 6173 0215</a>5  
   <hr>
-  ###Western Australia Victims Service  
+  ##<span class="VSSInterstate">Western Australia Victims Services </span>    
     **Website:** [https://www.victimsofcrime.wa.gov.au](https://www.victimsofcrime.wa.gov.au)  
   
   ####Commissioner for Victims of Crime  
@@ -104,7 +104,7 @@ content: |
   **Freecall:** <a href="tel:1800 818 988">1800 818 988</a>    
   **Email:** [vss@justice.wa.gov.au](mailto:vss@justice.wa.gov.au)  
   <hr>
-  ###Northern Territory Victims Services  
+  ##<span class="VSSInterstate">Northern Territory Victim Services </span>    
   **Website:** [https://victimsofcrime.org.au](https://victimsofcrime.org.au)  
   
   **For 24-hour support, contact:** <a href="tel:1800 672 242">1800 672 242</a>  
@@ -130,7 +130,7 @@ content: |
   **Email:** [supporttc@victimsofcrime.org.au](mailto:supporttc@victimsofcrime.org.au)  
   
   <hr>
-  ###Queensland Victims Services  
+  ##<span class="VSSInterstate">Queensland Victim Services </span>    
   
   **Website:** [https://www.qld.gov.au/law/crime-and-police/victims-and-witnesses-of-crime](https://www.qld.gov.au/law/crime-and-police/victims-and-witnesses-of-crime)  
   

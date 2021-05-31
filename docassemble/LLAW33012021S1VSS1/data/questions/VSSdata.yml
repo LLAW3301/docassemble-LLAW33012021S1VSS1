@@ -2,6 +2,16 @@
 variable name: VSSdata
 use objects: True
 data:
+  about_us: |
+    ${ VSSpt_ag_about_us }
+  vis: |
+    ${ VSSpt_ag_vis }
+  psych_services: |
+    ${ VSSpt_ag_psych_services }
+  victims_rights: |
+    ${ VSSpt_ag_victims_rights }
+  Interstate: |
+    ${ VSSinterstate_about_us }
   Port Augusta:
     about_us: |
       ${ VSSpt_ag_about_us }
@@ -42,6 +52,4 @@ data:
       ${ VSSmt_g_psych_services }
     victims_rights: |
       ${ VSSmt_g_victims_rights }
-  Interstate: |
-    ${ VSSinterstate_about_us }
 ---

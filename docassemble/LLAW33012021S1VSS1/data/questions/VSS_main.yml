@@ -16,13 +16,15 @@ metadata:
 ---
 sections:
   - Disclaimer
-  - Location
-  - Categories:
-    - About Us
-    - Courts
-    - Victim Impact Statements
-    - Psychological Services
-    - Victims' Rights
+  - Interstate
+  - About Us
+  - Victim Impact Statements
+  - Psychological Services
+  - Victims' Rights
+  - Courts:
+    - Adelaide Metro
+    - Port Augusta
+    - Mt Gambier
 ---
 features:
   css: temporary.css
@@ -56,7 +58,6 @@ question: |
   Victim Support Service Companions' Guide 
   </span>
 subquestion: |
-
   #####<span class="VSSDisclaimer">Welcome</span>      
   Welcome to the Victim Support Service (VSS) Companions' Guide.    
   
@@ -81,23 +82,118 @@ section: Disclaimer
 ---
 mandatory: True
 code: |
-  info_page
+  if (VSScategories == 'Interstate'):
+    Interstate_page
+  elif (VSScategories == 'about_us'):
+    aboutus_page
+  elif (VSScategories == 'vis'):
+    VIS_page
+  elif (VSScategories == 'psych_services'):
+    psych_page
+  elif (VSScategories == 'victims_rights'):
+    victimsrights_page
+  elif (VSScategories == 'courts' and VSSlocation != 'Adelaide Metro'):
+    courts1_page
+  elif (VSScategories == 'courts' and VSSlocation == 'Adelaide Metro'):
+    courts2_page
 ---
 #making the program only ask the questions required depending on location or whether they've selected the courts category or not
 back button: True
-event: info_page
+section: Interstate
+event: Interstate_page
 question: |
-  <span class="VSSHeading">
-  VSS Companions' Guide 
-  </span>
 subquestion: |
-  % if (VSSlocation == 'Interstate'):
-  ${ VSSdata[VSSlocation] }
-  % elif (VSSlocation == 'Port Augusta') or (VSSlocation == 'Mt Gambier') or (VSSlocation == 'Adelaide Metro' and VSScategories != 'courts'):
-  ${ VSSdata[VSSlocation][VSScategories] } 
-  % elif (VSSlocation == 'Adelaide Metro' and VSScategories == 'courts'):
+  ${ VSSdata[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: Handbook Information
+  docx template file: Handbook_Template.docx
+  valid formats:
+    - pdf
+---
+#making the program only ask the questions required depending on location or whether they've selected the courts category or not
+back button: True
+section: About Us
+event: aboutus_page
+question: |
+subquestion: |
+  ${ VSSdata[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: Handbook Information
+  docx template file: Handbook_Template.docx
+  valid formats:
+    - pdf
+---
+#making the program only ask the questions required depending on location or whether they've selected the courts category or not
+back button: True
+section: Victim Impact Statements
+event: VIS_page
+question: |
+subquestion: |
+  ${ VSSdata[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: Handbook Information
+  docx template file: Handbook_Template.docx
+  valid formats:
+    - pdf
+---
+#making the program only ask the questions required depending on location or whether they've selected the courts category or not
+back button: True
+section: Psychological Services
+event: psych_page
+question: |
+subquestion: |
+  ${ VSSdata[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: Handbook Information
+  docx template file: Handbook_Template.docx
+  valid formats:
+    - pdf
+---
+#making the program only ask the questions required depending on location or whether they've selected the courts category or not
+back button: True
+section: Victims' Rights
+event: victimsrights_page
+question: |
+subquestion: |
+  ${ VSSdata[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: Handbook Information
+  docx template file: Handbook_Template.docx
+  valid formats:
+    - pdf
+---
+#making the program only ask the questions required depending on location or whether they've selected the courts category or not
+back button: True
+section: Courts
+event: courts1_page
+question: |
+subquestion: |
+  ${ VSSdata[VSSlocation][VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: Handbook Information
+  docx template file: Handbook_Template.docx
+  valid formats:
+    - pdf
+---
+#making the program only ask the questions required depending on location or whether they've selected the courts category or not
+back button: True
+section: Courts
+event: courts2_page
+question: |
+subquestion: |
   ${ VSSdata[VSSlocation][VSScategories][VSScourt_subcat] }
-  % endif   
   
   **Download or email this information as a PDF**  
 attachment:

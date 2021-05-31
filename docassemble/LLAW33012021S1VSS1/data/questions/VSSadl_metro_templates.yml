@@ -4,7 +4,7 @@ include:
 ---
 template: VSSadl_metro_about_us
 content: |  
-  #####<span class="VSSDisclaimer">About us</span>    
+  #<span class="VSSDisclaimer">About us</span>    
   
   In 2021 the Victim Support Service (VSS) celebrated 40 years of providing continuous service and support to victims of crime in South Australia. The core service provided during all of that time has been the Court Companion program that is delivered by trained and experienced volunteers.     
   
@@ -33,6 +33,8 @@ content: |
 ---
 template: VSSadl_metro_court_before
 content: |
+  #<span class="VSSDisclaimer">Before Court Protocols</span>   
+  <hr>
   ###Attending the pre-court conference        
   The prosecutor will usually schedule a pre-court conference in which he or she will meet with the witness to go over their statement and give them some idea of what is likely to occur in the courtroom.  
   The witness can use this opportunity to ask any questions they may have about the process and what to expect.     
@@ -49,7 +51,8 @@ content: |
 ---
 template: VSSadl_metro_court_after
 content: |
-  ###After Court Protocols       
+  #<span class="VSSDisclaimer">After Court Protocols</span>   
+  <hr>    
   Being a witness is a difficult task, the client may want to talk to you about the trial after they have given evidence, and they may express a range of emotions.     
   
   You can let them debrief, but it is very important that you just listen to them and how they are feeling.Do not provide any opinions on how things have gone, and do not offer any advice.   
@@ -78,6 +81,8 @@ content: |
 ---
 template: VSSadl_metro_court_during
 content: |
+  #<span class="VSSDisclaimer">During Court Protocols</span>
+  <hr>
   ###Attending Court     
   Ensure you check the Courts List or go to the Information Counter to check which courtroom you need to be in.   
   
@@ -109,13 +114,16 @@ content: |
 ---
 template: VSSadl_metro_court_layout
 content: |
+  #<span class="VSSDisclaimer">Court Layout</span>  
+  <hr>
    ![Court Layout](https://docassemble.flinders.edu.au/playgroundstatic/default/279/Court_Layout.jpg)
    ***Image sourced from:** the Office for the Commissioner for Victims Rights.*
    <hr>
 ---
 template: VSSadl_metro_vis
 content: |
-  ###Victim Impact Statements     
+  #<span class="VSSDisclaimer">Victim Impact Statements</span>  
+  <hr>   
   When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.    
   
   The statement may include:
@@ -164,9 +172,7 @@ content: |
 ---
 template: VSSadl_metro_psych_services
 content: |
-  ###Psychological Services    
-  <hr>
-  [https://www.voc.sa.gov.au/help-and-resources/support-services/counselling-and-support](https://www.voc.sa.gov.au/help-and-resources/support-services/counselling-and-support)
+  #<span class="VSSDisclaimer">Psychological Services</span>     
   <hr>
   ####Rebuild - Relationships Australia South Australia
   Provides trauma-based counselling and peer support to adult and child victims of crime as they move through the criminal justice process.   
