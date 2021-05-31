@@ -6,14 +6,17 @@ template: VSSpt_ag_about_us
 content: |
   #<span class="VSSDisclaimer">About us</span>    
   <hr>
+  <div style="text-align: justify; text-justify: inter-word;">  
+  In 2021 the Victim Support Service (VSS) celebrated 40 years of providing continuous service and support to victims of crime in South Australia. The core service provided during all of that time has been the Court Companion program that is delivered by trained and experienced volunteers.  </div>          
   
-  In 2021 the Victim Support Service (VSS) celebrated 40 years of providing continuous service and support to victims of crime in South Australia. The core service provided during all of that time has been the Court Companion program that is delivered by trained and experienced volunteers.     
   
-  The Court Companion program began in 1981 after retired Queensland Police Commissioner Ray Whitrod identified that victims of crime lacked support when attending court to give evidence during a criminal trial. Following a talk delivered by Mr Whitrod and his wife Mavis to the SA Dental Wives, those present volunteered to provide that missing support by accompanying victims of crime to court. Over time the Court Companion Service expanded to include victims in metropolitan, regional and rural areas of South Australia.     
+  <div style="text-align: justify; text-justify: inter-word;"> 
+  The Court Companion program began in 1981 after retired Queensland Police Commissioner Ray Whitrod identified that victims of crime lacked support when attending court to give evidence during a criminal trial. Following a talk delivered by Mr Whitrod and his wife Mavis to the SA Dental Wives, those present volunteered to provide that missing support by accompanying victims of crime to court. Over time the Court Companion Service expanded to include victims in metropolitan, regional and rural areas of South Australia. </div>     
   
-  The Court Support Program in 2021 is now delivered in partnership with Victims of Crime SA (VOC SA), the office of the Commissioner for Victims’ Rights,. The program continues to provide support and information to victims of crime who are attending Court to give evidence in support of the crime alleged to have been committed against them. A VSS volunteer will provide support and information to the victim as well as accompany them throughout the trial process.     
-  
-  VSS are independently funded through the philanthropic support of individuals and business organisations within South Australia.    
+  <div style="text-align: justify; text-justify: inter-word;">
+  The Court Support Program in 2021 is now delivered in partnership with Victims of Crime SA (VOC SA), the office of the Commissioner for Victims’ Rights,. The program continues to provide support and information to victims of crime who are attending Court to give evidence in support of the crime alleged to have been committed against them. A VSS volunteer will provide support and information to the victim as well as accompany them throughout the trial process. </div>     
+  <div style="text-align: justify; text-justify: inter-word;">
+  VSS are independently funded through the philanthropic support of individuals and business organisations within South Australia.  </div>
   
   <hr>
   #####<span class="VSSDisclaimer">Contact us</span>   
@@ -80,8 +83,9 @@ content: |
 ---
 template: VSSpt_ag_vis
 content: |
-  #<span class="VSSDisclaimer">Victim Impact Statements</span>    
-  When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.    
+  #<span class="VSSDisclaimer">Victim Impact Statements</span>   
+  <div style="text-align: justify; text-justify: inter-word;">
+  When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.  </div>         
   
   The statement may include:
   

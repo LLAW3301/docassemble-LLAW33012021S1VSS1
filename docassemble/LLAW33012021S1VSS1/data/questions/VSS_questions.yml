@@ -7,16 +7,13 @@ question: |
   </span>
 subquestion: |
   #####<span class="VSSDisclaimer">What is your location?</span>   
-buttons:
-  - Adelaide Metro:
-      code: |
-        VSSlocation = 'Adelaide Metro' 
-  - Port Augusta:
-      code: |
-        VSSlocation = 'Port Augusta'  
-  - Mount Gambier:
-      code: |
-        VSSlocation = 'Mt Gambier'  
+fields:
+  - no label: VSSlocation
+    datatype: radio
+    choices:
+      - "Adelaide Metro": Adelaide Metro
+      - "Port Augusta": Port Augusta
+      - "Mt Gambier": Mt Gambier 
 section: Location      
 ---
 #asking the user to select the category of information they'd like to see
@@ -27,25 +24,16 @@ question: |
   </span>
 subuqestion: |
   #####<span class="VSSDisclaimer">Please select from the information below</span> 
-buttons:
-  - Interstate:
-      code: |
-        VSScategories = 'Interstate'
-  - About Us/Contact Us:
-      code: |
-        VSScategories = 'about_us'
-  - Courts:
-      code: |
-        VSScategories = 'courts'
-  - Victim Impact Statements:
-      code: |
-        VSScategories = 'vis'
-  - Psychological Services:
-      code: |
-        VSScategories = 'psych_services'
-  - Victims' Rights:
-      code: |
-        VSScategories = 'victims_rights'   
+fields: 
+  - no label: VSScategories
+    datatype: radio
+    choices:
+      - "Interstate": Interstate
+      - "About Us/Contact Us": about_us
+      - "Courts": courts
+      - "Victim Impact Statements": vis
+      - "Psychological Services": psych_services
+      - "Victims' Rights": victims_rights  
 ---
 #asking user to select which court category they'd like to see
 back button: True
@@ -55,18 +43,13 @@ question: |
   </span>
 subquestion: |
   #####<span class="VSSDisclaimer">What court protocols would you like information on?</span> 
-buttons:
-  - Before Court Protocols:
-      code: |
-        VSScourt_subcat = 'before_court'
-  - During Court Protocols:
-      code: |
-        VSScourt_subcat = 'during_court'
-  - After Court Protocols:
-      code: |
-        VSScourt_subcat = 'after_court'
-  - Court Layout:
-      code: |
-        VSScourt_subcat = 'court_layout'  
+fields:
+  -  no label: VSScourt_subcat
+     datatype: radio
+     choices:
+       -  "Before Court Protocols": before_court
+       -  "During Court Protocols": during_court
+       -  "After Court Protocols": after_court
+       -  "Court Layout": court_layout
 section: Courts        
 ---

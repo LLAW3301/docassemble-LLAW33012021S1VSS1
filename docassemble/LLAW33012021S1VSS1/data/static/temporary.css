@@ -11,11 +11,11 @@ body{
 }
 .navbar form button{
     background-color: rgb(0,137,206);
-    color: rgb(255, 255, 255);
+    color: white;
 }
 .navbar form button:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0,137,206); 
+    background-color: rgb(0,90,135);
+    color: white; 
 }
 }
 .VSSHeading{

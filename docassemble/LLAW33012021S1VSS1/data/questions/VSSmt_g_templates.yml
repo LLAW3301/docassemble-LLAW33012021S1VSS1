@@ -6,14 +6,14 @@ template: VSSmt_g_about_us
 content: |
   #<span class="VSSDisclaimer">About Us</span>  
   <hr>
-  
+  <div style="text-align: justify; text-justify: inter-word;">  
   In 2021 the Victim Support Service (VSS) celebrated 40 years of providing continuous service and support to victims of crime in South Australia. The core service provided during all of that time has been the Court Companion program that is delivered by trained and experienced volunteers.     
   
   The Court Companion program began in 1981 after retired Queensland Police Commissioner Ray Whitrod identified that victims of crime lacked support when attending court to give evidence during a criminal trial. Following a talk delivered by Mr Whitrod and his wife Mavis to the SA Dental Wives, those present volunteered to provide that missing support by accompanying victims of crime to court. Over time the Court Companion Service expanded to include victims in metropolitan, regional and rural areas of South Australia.     
   
   The Court Support Program in 2021 is now delivered in partnership with Victims of Crime SA (VOC SA), the office of the Commissioner for Victims’ Rights,. The program continues to provide support and information to victims of crime who are attending Court to give evidence in support of the crime alleged to have been committed against them. A VSS volunteer will provide support and information to the victim as well as accompany them throughout the trial process.     
   
-  VSS are independently funded through the philanthropic support of individuals and business organisations within South Australia.    
+  VSS are independently funded through the philanthropic support of individuals and business organisations within South Australia. </div>   
   
   <hr>
   #####<span class="VSSDisclaimer">Contact us</span>   
