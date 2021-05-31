@@ -28,12 +28,12 @@ fields:
   - no label: VSScategories
     datatype: radio
     choices:
-      - "Interstate": Interstate
       - "About Us/Contact Us": about_us
       - "Courts": courts
       - "Victim Impact Statements": vis
       - "Psychological Services": psych_services
-      - "Victims' Rights": victims_rights  
+      - "Victims' Rights": victims_rights 
+      - "Interstate Victim Services": Interstate
 ---
 #asking user to select which court category they'd like to see
 back button: True

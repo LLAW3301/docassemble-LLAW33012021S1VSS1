@@ -4,7 +4,7 @@ include:
 ---
 template: VSSinterstate_about_us
 content: |
-  #<span class="VSSDisclaimer">Interstate Jurisdictions - Victim Assistance Services </span>
+  #<span class="VSSDisclaimer">Interstate Victim Assistance Services </span>
   <hr>  
   ##<span class="VSSInterstate">New South Wales Victims Service </span>  
     
