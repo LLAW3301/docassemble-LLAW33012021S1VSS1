@@ -1,8 +1,9 @@
 body{
-    background-image: url("VSS_LogoBackground.png");
+    background-image: url("VSSLogotrans.png");
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: left bottom;
     background-attachment: fixed;  
+    background-size: 600px 600px;
 }
 .navbar{
   background-color: rgb(0,137,206) !important; 
@@ -35,3 +36,7 @@ body{
 .tab {
   margin-left: 20px;
 }
+.justifytext {  
+    text-align: justify;
+    text-justify: inter-word;
+}  
