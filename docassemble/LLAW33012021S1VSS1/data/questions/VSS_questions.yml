@@ -13,7 +13,7 @@ fields:
     choices:
       - "Adelaide Metro": Adelaide Metro
       - "Port Augusta": Port Augusta
-      - "Mt Gambier": Mt Gambier 
+      - "Mount Gambier": Mt Gambier 
 section: Location      
 ---
 #asking the user to select the category of information they'd like to see
