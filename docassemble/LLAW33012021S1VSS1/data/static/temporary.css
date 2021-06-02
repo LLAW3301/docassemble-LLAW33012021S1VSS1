@@ -7,16 +7,18 @@ body{
 }
 .navbar{
   background-color: rgb(0,137,206) !important; 
-
 }
 .navbar form button{
-    background-color: rgb(0,137,206);
-    color: white;
+    color: (0,137,206,0.3);
 }
-.navbar form button:hover{
-    background-color: rgb(0,90,135);
-    color: white; 
+.daback{
+    color: (0,137,206,0.3); 
+}  
+.navbar form button[type=text]{
+    color: (0,137,206,0.3);
 }
+.navbar form button:hover[type=text]{
+    color: (0,137,206,0.3); 
 }
 .VSSHeading{
     color: rgb(38, 52, 118);
@@ -40,4 +42,16 @@ body{
 .justifytext {  
     text-align: justify;
     text-justify: inter-word;
+}  
+.btn btn-da btn-light btn-da btn-da-custom{
+  display: block;  
+}  
+offset-xl-1 col-xl-2 col-lg-3 col-md-3 d-none d-md-block danavdiv {
+    color: rgba(51, 170, 51, 0.05); 
+} 
+.da-button-set da-field-buttons{ 
+  display: block;
+}  
+.form-actions{ 
+  display: block;
 }  

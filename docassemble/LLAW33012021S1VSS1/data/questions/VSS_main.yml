@@ -3,7 +3,7 @@ metadata:
   title: |
     Victim Support Service SA Companions Guide
   short title: |
-    VSS Companions Guide
+    Companions Guide
   authors:
     - name: Sam George
     - name: Ruby Brooks
@@ -21,10 +21,7 @@ sections:
   - Victim Impact Statements
   - Psychological Services
   - Victims' Rights
-  - Courts:
-    - Adelaide Metro
-    - Port Augusta
-    - Mt Gambier
+  - Courts
 ---
 features:
   css: temporary.css
@@ -36,6 +33,19 @@ features:
 objects:
   - VSSlogo: DAStaticFile.using(filename='VSSHeader.png')
 ---
+# Modify the post default screen part to attribute work to Flinders and your client
+default screen parts:
+  post: |
+    <div style="display: flex; height: 200px; align-items: flex-end; flex-direction: row-reverse">
+    <div style="margin: 5px"><img src="https://staff.flinders.edu.au/etc.clientlibs/flinders/clientlibs/clientlib-site/resources/images/flinderuni_main_logo_black.png" height="40">
+    </div>
+    <div style="margin: 5px; text-align: right">
+    <cite><small><i>
+    Developed by Flinders University in collaboration with Victim Support Services SA
+    </i></small></cite>
+    </div>
+    </div>
+---
 mandatory: True
 decoration: star
 code: |
@@ -46,10 +56,17 @@ code: |
 include:
   - VSS_questions.yml
   - VSSdata.yml
-  - VSSadl_metro_templates.yml
-  - VSSpt_ag_templates.yml
-  - VSSmt_g_templates.yml
-  - VSSinterstate_templates.yml
+  - VSScourt_templates.yml
+  - VSSglobal_templates.yml
+---
+images:
+  Interstate: Interstate.svg
+  AboutUs: AboutUs.svg
+  Courts: Court.svg
+  VIS: VIS.svg
+  Psych: psych2.svg
+  Rights: Rights.svg
+  Maps: VSSmap.png
 ---
 #welcome screen
 mandatory: True
@@ -109,6 +126,7 @@ subquestion: |
 attachment:
   filename: Handbook Information
   docx template file: Handbook_Template.docx
+  editable: False  
   valid formats:
     - pdf
 ---
@@ -124,6 +142,7 @@ subquestion: |
 attachment:
   filename: Handbook Information
   docx template file: Handbook_Template.docx
+  editable: False
   valid formats:
     - pdf
 ---
@@ -139,6 +158,7 @@ subquestion: |
 attachment:
   filename: Handbook Information
   docx template file: Handbook_Template.docx
+  editable: False
   valid formats:
     - pdf
 ---
@@ -154,6 +174,7 @@ subquestion: |
 attachment:
   filename: Handbook Information
   docx template file: Handbook_Template.docx
+  editable: False
   valid formats:
     - pdf
 ---
@@ -169,6 +190,7 @@ subquestion: |
 attachment:
   filename: Handbook Information
   docx template file: Handbook_Template.docx
+  editable: False
   valid formats:
     - pdf
 ---
@@ -184,6 +206,7 @@ subquestion: |
 attachment:
   filename: Handbook Information
   docx template file: Handbook_Template.docx
+  editable: False
   valid formats:
     - pdf
 ---
@@ -199,6 +222,7 @@ subquestion: |
 attachment:
   filename: Handbook Information
   docx template file: Handbook_Template.docx
+  editable: False
   valid formats:
     - pdf
 ---

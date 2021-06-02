@@ -1,0 +1,237 @@
+include:
+  - VSS_questions.yml
+---
+template: VSSglobal_about_us
+content: |
+  ##<span class="VSSDisclaimer">About us</span>    
+  <hr>
+  <div style="text-align: justify; text-justify: inter-word;">  
+  In 2021 the Victim Support Service (VSS) celebrated 40 years of providing continuous service and support to victims of crime in South Australia. The core service provided during all of that time has been the Court Companion program that is delivered by trained and experienced volunteers.  </div>          
+  
+  
+  <div style="text-align: justify; text-justify: inter-word;"> 
+  The Court Companion program began in 1981 after retired Queensland Police Commissioner Ray Whitrod identified that victims of crime lacked support when attending court to give evidence during a criminal trial. Following a talk delivered by Mr Whitrod and his wife Mavis to the SA Dental Wives, those present volunteered to provide that missing support by accompanying victims of crime to court. Over time the Court Companion Service expanded to include victims in metropolitan, regional and rural areas of South Australia. </div>     
+  
+  <div style="text-align: justify; text-justify: inter-word;">
+  The Court Support Program in 2021 is now delivered in partnership with Victims of Crime SA (VOC SA), the office of the Commissioner for Victims’ Rights,. The program continues to provide support and information to victims of crime who are attending Court to give evidence in support of the crime alleged to have been committed against them. A VSS volunteer will provide support and information to the victim as well as accompany them throughout the trial process. </div>     
+  <div style="text-align: justify; text-justify: inter-word;">
+  VSS are independently funded through the philanthropic support of individuals and business organisations within South Australia.  </div>
+  
+  <hr>
+  ##<span class="VSSDisclaimer">Contact us</span>   
+  **Call:** <a href="tel:1800 842 846">1800 842 846</a>
+  
+  **Email us:**    
+  
+  Staying Home Staying Safe: 
+  [shss@victimsa.org](mailto:shss@victimsa.org)    
+  
+  Redress Support Services: 
+  [rss@victimsa.org](rss@victimsa.org)    
+  
+  General Enquiries: 
+  [enquiries@victimsa.org](enquiries@victimsa.org)    
+  
+  <hr>
+---
+template: VSSglobal_vis
+content: |
+  ##<span class="VSSDisclaimer">Victim Impact Statements</span>   
+  <div style="text-align: justify; text-justify: inter-word;">
+  When a defendant pleads guilty or is found guilty of committing a crime, the victim of the crime has a right to tell the court how the crime has affected them. This is done through a victim impact statement. A victim impact statement is not compulsory; however, it allows the victim/witness to have their say and to share the impact of the crime on their lives in the court. Many victims of crime welcome the opportunity to detail this with the magistrate or judge.  </div>         
+  
+  The statement may include:
+  
+  #####Emotional Impacts:
+
+  * general feelings of wellbeing or enjoyment of life     
+  * how the crime has affected any relationships (with partners, family, friends or co-workers)     
+  * any emotions or feelings related to the crime     
+  * effects on lifestyle and activities (such as trouble sleeping, eating, working)     
+  * psychological effects of the crime, including any treatment required (such as depression, anxiety, stress)     
+  
+  #####Physical Impacts:
+
+  * injuries as a result of the crime (such as broken bones, nerve damage)     
+  * how injuries have affected their life (such as work, sport or leisure activities)   
+  * any long term impacts of injuries on their life     
+  * any medical treatment required including future or ongoing medical treatment.     
+  
+  #####Financial Impacts:
+
+  * loss of earnings because of the crime (if a physical or psychological injury has affected your ability to work)     
+  * general expenses caused by the crime (such as home security, replacing items)     
+  * travel expenses because of the crime (such as court appearances)  
+  * medical treatment needed because of the crime (such as ongoing treatment for a recurring injury the crime caused).     
+  
+  #####Social Impact:
+  They might describe problems the crime has caused in their daily life, including how the crime has affected:
+
+  * work or study commitments     
+  * family or social life (friendships, social events, sporting commitments)     
+  * how safe they feel.    
+  
+  The statement should not include:
+
+  * Details of the crime itself the victim’s opinion of the defendant or any information about any other crimes they believe, or know, the defendant to have been involved in or accused of     
+  * Any information that is not factually correct. (For example, any medical diagnosis needs to be supported by documents from the victim’s doctor)     
+  * Any offensive or inappropriate language. (It should be written in simple, descriptive words.)     
+  
+  How does the witness make the victim impact statement?
+
+  * The prosecutor can speak to the court on behalf of the victim.     
+  * The prosecutor can call the victim to share their verbal statement with the court.   
+  * The victim can make a written victim impact statement which may be handed to the judge. The victim may then have a chance to read this out to the court.
+  <hr>
+---
+template: VSSglobal_psych_services
+content: |
+  ##<span class="VSSDisclaimer">Psychological Services</span>    
+  <hr>
+  ####Rebuild - Relationships Australia South Australia
+  <div style="text-align: justify; text-justify: inter-word;">  Provides trauma-based counselling and peer support to adult and child victims of crime as they move through the criminal justice process.   </div>
+  
+  **Phone:** <a href="tel:1800 310 310">1800 310 310</a>    
+  **Email:** [rebuild@rasa.org.au](mailto:rebuild@rasa.org.au)    
+
+  <div style="text-align: justify; text-justify: inter-word;">
+  If you find it difficult to hear or speak, you can contact RASA through the National Relay Service (NRS) on 133 677.    </div>       
+  
+  <div style="text-align: justify; text-justify: inter-word;">
+  If you require support in another language, you can use the Translating and Interpreting Service (TIS National) free of charge by: </div>
+
+  * Calling RASA and asking for an interpreter, or    
+  * Calling TIS on <a href="tel:131 450">131 450</a> and asking to be connected on <a href="tel:1800 577 571">1800 577 571</a>
+  
+  
+  <hr>  
+  ####Domestic Violence Crisis Line
+  The Domestic Violence Crisis Line offers help by:
+
+  * developing safety management strategies that suit your unique situation    
+  * linking you with tools that promote safety and technology security 
+  * facilitating access for you and your children to safe accommodation 
+  * providing domestic and family violence counselling over the phone   
+  * providing information and referrals to accommodation, police, legal, housing, specialised counselling and financial supports available    
+  * supporting you to remain safe at home.    
+  
+  **Phone:** <a href="tel:1800 800 098">1800 800 098</a>    <div style="text-align: justify; text-justify: inter-word;">
+  Due to the volume of calls the crisis line receives, leave a message rather than stay on hold. A specialist counsellor will return your call at a safe time nominated by you.    </div>
+  <hr>
+  ####Lifeline
+  <div style="text-align: justify; text-justify: inter-word;">Lifeline is a national charity providing all Australians experiencing a personal crisis with access to 24 hour crisis support and suicide prevention services.    </div>    
+  
+  
+  **Phone:** <a href="tel:13 11 14">13 11 14</a>    
+  If you find it hard to talk, you can also text <a href="tel:0477 13 11 14">0477 13 11 14</a>    
+  Lifeline Text is available 6.00pm - Midnight (AEST), 7 days a week.    
+  You can also access support via online chat from 7pm to Midnight (Syd time) 7 days.
+  <hr>
+  ####Mental Health Triage Service (24 hours)
+  The SA Health Mental Health Triage Service operates 24 hours a day, 7 days a week. This service:
+
+  * is the main point of access into mental health services    
+  * can provide advice and information in a mental health emergency or crisis situation    
+  * is staffed by mental health clinicians    
+  * will assess and refer to response teams where appropriate.    
+  
+  **Phone:** <a href="tel:13 14 65">13 14 65</a>    
+  <hr>
+  ####Homicide Victim Support Group    
+  <div style="text-align: justify; text-justify: inter-word;">The Homicide Victim Support Group is a self-help group including people who have suffered the loss of a family member or friend through homicide.</div>    
+  
+  Members join together to:
+
+  * help others cope with their trauma    
+  * share their experiences    
+  * provide information about services and systems    
+  * listen to others and share insights into surviving.   
+  
+  **Phone:** <a href="tel:0423 411 055">0423 411 055</a> or <a href="tel:0428 475 618">0428 475 618</a>
+  <hr>
+
+  ####Road Trauma Support Team    
+  <div style="text-align: justify; text-justify: inter-word;">The Road Trauma Support Team of South Australia provides free support for people who have been affected by road trauma, whether directly or indirectly.</div> 
+  
+  This may include:
+
+  * vehicle occupants    
+  * family members    
+  * friends    
+  * work colleagues    
+  * bystanders    
+  * emergency service personnel
+  
+  **Phone:** <a href="tel:0400 705 066">0400 705 066</a> or <a href="tel:1800 069 528">1800 069 528</a>
+  <hr>
+  ####Compassionate Friends    
+  <div style="text-align: justify; text-justify: inter-word;">The Compassionate Friends (SA) Inc is part of a worldwide organisation offering friendship and understanding to families following the death of a son or daughter, brother or sister.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word;">Compassionate Friends offers support in the grief and trauma which follows the death of a child at any age and from any cause.</div>  
+  
+  **Phone:** <a href="tel:1300 064 068">1300 064 068</a> or <a href="tel:0456 820 133">0456 820 133</a>      
+  **Email:** [tcfsainc@outlook.com](mailto:tcfsainc@outlook.com)    
+  <hr>  
+  ####Kids Helpline     
+  <div style="text-align: justify; text-justify: inter-word;">The Kids Helpline is a 24-hour telephone and online  counselling service for young people aged 5–25 years of age.</div>       
+  
+  **Phone:** <a href="tel:1800 551 800">1800 551 800</a>         
+  **Email:** [Counsellor@kidshelpline.com.au](mailto:Counsellor@kidshelpline.com.au)       
+  <hr>
+  
+  ####eSafety Commissioner       
+  <div style="text-align: justify; text-justify: inter-word;">eSafety provides Australians with a place to report serious cyberbullying, image-based abuse and illegal online content.</div>        
+  
+  **Phone:**  <a href="tel:1800 880 176">1800 880 176</a>      
+  **Email Link:** [https://www.esafety.gov.au/about-us/contact-us](https://www.esafety.gov.au/about-us/contact-us)      
+  <hr>
+
+  ####Mensline Australia       
+  <div style="text-align: justify; text-justify: inter-word;">Mensline is a telephone and online counselling service for men with family and relationship concerns.</div>       
+  **Phone:** <a href="tel:1300 789 978">1300 789 978</a>         
+  **Chat Link:** [https://mensline.org.au](https://mensline.org.au)       
+  <hr>
+  
+  ####National Sexual Assault, Domestic Violence Counselling Service     
+  <div style="text-align: justify; text-justify: inter-word;"><a href="tel:1800 737 732">1800RESPECT</a> is a 24-hour online chat and telephone counselling, information and referral service.</div>
+  <hr>
+---
+template: VSSglobal_victims_rights
+content: |
+  ##<span class="VSSDisclaimer">Victims Rights</span>    
+  
+  The Commissioner for Victims’ Rights Provides information and support to victims of crime and other functions      
+  
+  Contact them on: <a href="tel:(08) 8204 9635">(08) 8204 9635</a>      
+  
+  Or visit the website for more information: [voc.sa.gov.au](voc.sa.gov.au)     
+  <hr>
+  
+  ####Vulnerable Witnesses     
+  Under the Evidence Act, 1929 (SA) special arrangements can be made for witnesses deemed to be *“vulnerable”* in order to protect them from:
+
+  * Embarrassment or distress     
+  * Being intimidated by the atmosphere of the courtroom, or     
+  * For any other proper reason     
+  
+  Some of these special arrangements include:
+
+  * **Court Companion:** This allows for witnesses to be accompanied by a volunteer, friend, family member or social worker who is not a witness in the case for the purpose of providing them with a familiar and supportive physical presence whilst you give their evidence.      
+  * **Closed Circuit Television:** This allows witnesses to give evidence from a separate room, instead of the courtroom, and have it transmitted to the courtroom via CCTV.      
+  * **One-way screen:** This means a One-Way Screen is placed between the witness and the accused person so it blocks their view of him or her. It is important to note that the screen acts as a one-way barrier and the accused can see the witness whilst giving evidence.  
+  
+  <hr>
+  ####Victims are expected to be informed about:
+
+  * How the police investigation is going (unless this may jeopardise the investigation)     
+  * Court and trial processes, including dates, how to attend, and what the victim of crime’s role will be as a witness.     
+  * The name of the accused person, whether they are being charged and what with, if a warrant is issued for their arrest, and any programs available to them.     
+  * Any application of bail made by the accused person, outcomes of the application, and arrangements made for release, including any special conditions that may affect the victim of crime’s welfare.     
+  * The defendant’s period of imprisonment, and to write to the parole board if a decision is to be made about granting parole to the defendant.     
+  <hr>
+  ####Victims also have a right to:
+
+  * Be protected at court from unnecessary contact with the accused person and their family members or friends     
+  * Make a victim impact statement that may be presented to the court at sentencing if the accused is found guilty
+  <hr>
+---

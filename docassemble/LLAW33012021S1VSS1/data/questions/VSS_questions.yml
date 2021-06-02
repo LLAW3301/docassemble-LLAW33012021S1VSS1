@@ -14,26 +14,44 @@ fields:
       - "Adelaide Metro": Adelaide Metro
       - "Port Augusta": Port Augusta
       - "Mt Gambier": Mt Gambier 
+right: |
+  [FILE VSSMap.png, 125%]
+
 section: Location      
 ---
 #asking the user to select the category of information they'd like to see
-back button: True
 question: |
   <span class="VSSHeading">
   What would you like information on? 
   </span>
 subuqestion: |
   #####<span class="VSSDisclaimer">Please select from the information below</span> 
-fields: 
-  - no label: VSScategories
-    datatype: radio
-    choices:
-      - "Interstate": Interstate
-      - "About Us/Contact Us": about_us
-      - "Courts": courts
-      - "Victim Impact Statements": vis
-      - "Psychological Services": psych_services
-      - "Victims' Rights": victims_rights  
+  
+buttons: 
+  - About Us/Contact Us:
+      code: |
+        VSScategories = 'about_us'
+    image: AboutUs
+  - Courts:
+      code: |
+        VSScategories = 'courts'
+    image: Courts
+  - Victim Impact Statements:
+      code: |
+        VSScategories = 'vis'
+    image: VIS
+  - Psychological Services:
+      code: |
+        VSScategories = 'psych_services'
+    image: Psych
+  - Victims' Rights:
+      code: |
+        VSScategories = 'victims_rights'
+    image: Rights    
+  - Interstate:
+      code: |
+        VSScategories = 'Interstate'
+    image: Interstate
 ---
 #asking user to select which court category they'd like to see
 back button: True
