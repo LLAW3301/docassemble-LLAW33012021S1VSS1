@@ -15,7 +15,8 @@ fields:
       - "Port Augusta": Port Augusta
       - "Mt Gambier": Mt Gambier 
 right: |
-  [FILE VSSMap.png, 125%]
+  <br>
+  [FILE VSSMap.png, 400px]
 
 section: Location      
 ---

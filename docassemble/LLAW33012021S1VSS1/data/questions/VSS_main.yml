@@ -24,8 +24,8 @@ sections:
   - Courts
 ---
 features:
-  css: temporary.css
   debug: False
+  css: temporary.css
   hide standard menu: True
   navigation back button: True
   navigation: True
@@ -124,7 +124,7 @@ subquestion: |
   
   **Download or email this information as a PDF**  
 attachment:
-  filename: Handbook Information
+  filename: VSS Companions Guide
   docx template file: Handbook_Template.docx
   editable: False  
   valid formats:
@@ -140,7 +140,7 @@ subquestion: |
   
   **Download or email this information as a PDF**  
 attachment:
-  filename: Handbook Information
+  filename: VSS Companions Guide
   docx template file: Handbook_Template.docx
   editable: False
   valid formats:
@@ -156,7 +156,7 @@ subquestion: |
   
   **Download or email this information as a PDF**  
 attachment:
-  filename: Handbook Information
+  filename: VSS Companions Guide
   docx template file: Handbook_Template.docx
   editable: False
   valid formats:
@@ -172,7 +172,7 @@ subquestion: |
   
   **Download or email this information as a PDF**  
 attachment:
-  filename: Handbook Information
+  filename: VSS Companions Guide
   docx template file: Handbook_Template.docx
   editable: False
   valid formats:
@@ -188,7 +188,7 @@ subquestion: |
   
   **Download or email this information as a PDF**  
 attachment:
-  filename: Handbook Information
+  filename: VSS Companions Guide
   docx template file: Handbook_Template.docx
   editable: False
   valid formats:
@@ -204,7 +204,7 @@ subquestion: |
   
   **Download or email this information as a PDF**  
 attachment:
-  filename: Handbook Information
+  filename: VSS Companions Guide
   docx template file: Handbook_Template.docx
   editable: False
   valid formats:
@@ -220,7 +220,7 @@ subquestion: |
   
   **Download or email this information as a PDF**  
 attachment:
-  filename: Handbook Information
+  filename: VSS Companions Guide
   docx template file: Handbook_Template.docx
   editable: False
   valid formats:
