@@ -1,0 +1,60 @@
+body{
+    background-image: url("VSSLogotrans.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;?
+    background-attachment: fixed;  
+}
+
+.navbar{
+    background-color: rgb(0,137,206) !important; 
+}
+.nav-pills .nav-link.active{ 
+    color: white;
+    background-color: rgb(0,137,206);
+}  
+/*#daattributions{
+    background-image: url("cardboard.png"); 
+}  */
+a {
+    color: rgb(0,137,206);
+    text-decoration: none;
+    background-color: transparent;
+}
+#demobox {
+    background-color: rgba(0,137,206, 0.2);
+    padding: 10px ;
+}
+.text-muted {
+    color: rgba(255,255,255,.5) !important;
+}
+.VSSHeading{
+    color: rgba(38, 52, 118, 0.9);
+    font-size: 1.2em;
+    font-weight: bolder;    
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgb(0,137,206);
+    border-color: rgb(0,137,206);
+}
+.btn-link {
+    font-weight: 400;
+    color: rgb(0,137,206);
+    text-decoration: none;
+}
+.VSSDisclaimer{
+    color: rgba(38, 52, 118, 0.9);
+    font-size: 1.2em;
+    font-weight: bolder;   
+}
+.VSSInterstate{
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: bolder;   
+}
+.tab {
+    margin-left: 20px;
+}
+.justifytext {  
+    text-align: justify;
+    text-justify: inter-word;

@@ -28,7 +28,7 @@ sections:
 #disabling the source button, defining CSS and adding a back button
 features:
   debug: False
-  css: temporary.css
+  css: VSSstyles.css
   hide standard menu: True
   navigation back button: True
   navigation: True

@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.LLAW33012021S1VSS1',
       version='1.0.0',
       description=('A docassemble extension.'),
-      long_description='# docassemble.LLAW33012021S1VSS1\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nMark Ferraretto, mark.ferraretto@flinders.edu.au\r\n.\r\n',
+      long_description='This application was developed to aid companions volunteering with Victim Services South Australia. This application will provide various information relating to their role as companions.\r\n\r\nVolunteering as a companion can be stressfull and confusing at times so having access to accurate and neatly presented information to aid them in their volunteering can free up much of their time and mental space.\r\n\r\nThe application includes an option to download or send each page of information as a non-editable PDF file for the companion to use for future reference or to send to their clients for them to read over.\r\n',
       long_description_content_type='text/markdown',
       author='Mark Ferraretto',
       author_email='mark.ferraretto@flinders.edu.au',
