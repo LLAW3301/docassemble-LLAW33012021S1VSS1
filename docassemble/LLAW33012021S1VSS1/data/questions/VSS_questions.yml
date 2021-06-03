@@ -1,24 +1,26 @@
 ---
-#ask the user for location
+#asking the user to select which court options they'd like to view
 back button: True
 question: |  
   <span class="VSSHeading">
-  Location 
+  Courts 
   </span>
 subquestion: |
-  #####<span class="VSSDisclaimer">What is your location?</span>   
+  #####<span class="VSSDisclaimer">What would you like information on?</span>   
 fields:
   - no label: VSSlocation
     datatype: radio
     choices:
-      - "Adelaide Metro": Adelaide Metro
-      - "Port Augusta": Port Augusta
-      - "Mt Gambier": Mt Gambier 
+      - "Adelaide Metro Courts": Adelaide Metro
+      - "Port Augusta Courts": Port Augusta
+      - "Mount Gambier Courts": Mt Gambier 
+      - "Court Protocols": court_protocols
+      - "Court Support and Self Care Resources": court_support
 right: |
   <br>
-  [FILE VSSMap.png, 400px]
+  [FILE VSSMap.png, 275px]
 
-section: Location      
+section: Courts      
 ---
 #asking the user to select the category of information they'd like to see
 question: |
@@ -27,9 +29,9 @@ question: |
   </span>
 subuqestion: |
   #####<span class="VSSDisclaimer">Please select from the information below</span> 
-  
+#setting the buttons and their icons  
 buttons: 
-  - About Us/Contact Us:
+  - About Us:
       code: |
         VSScategories = 'about_us'
     image: AboutUs
@@ -54,7 +56,7 @@ buttons:
         VSScategories = 'Interstate'
     image: Interstate
 ---
-#asking user to select which court category they'd like to see
+#asking user to select which court protocols they'd like to see
 back button: True
 question: |
   <span class="VSSHeading">

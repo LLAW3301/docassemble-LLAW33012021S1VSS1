@@ -1,30 +1,59 @@
-#data block to reference eahc info page for each district
+#The data blocks have been seperated into various small blocks to reduce load time, since docassemble scans through each templating when calling a data block. these data blocks contain the relevant templates.
 variable name: VSSdata
+use objects: True
+data:
+  courts:
+    before_court: |
+      ${ VSScourt_before }
+    after_court: |
+      ${ VSScourt_after }
+    during_court: |
+      ${ VSScourt_during }
+    court_layout: |
+      ${ VSScourt_layout }  
+---
+variable name: VSSdata1
+use objects: True
+data:
+  Interstate: |
+    ${ VSSinterstate_about_us }
+---
+variable name: VSSdata2
 use objects: True
 data:
   about_us: |
     ${ VSSglobal_about_us }
+---
+variable name: VSSdata3
+use objects: True
+data:
   vis: |
     ${ VSSglobal_vis }
+---
+variable name: VSSdata4
+use objects: True
+data:
   psych_services: |
     ${ VSSglobal_psych_services }
+---
+variable name: VSSdata5
+use objects: True
+data:
   victims_rights: |
-    ${ VSSglobal_victims_rights }
-  Interstate: |
-    ${ VSSinterstate_about_us }
+    ${ VSSglobal_victims_rights } 
+---
+variable name: VSSdata6
+use objects: True
+data:
+  court_support:
+    courts: |
+      ${ VSScourt_support }
   Port Augusta:
     courts: |
       ${ VSSpt_ag_courts }
   Adelaide Metro:
-    courts:
-      before_court: |
-        ${ VSSadl_metro_court_before }
-      after_court: |
-        ${ VSSadl_metro_court_after }
-      during_court: |
-        ${ VSSadl_metro_court_during }
-      court_layout: |
-        ${ VSSadl_metro_court_layout }
+    courts: |
+      ${ VSSadl_metro_courts }
   Mt Gambier:
     courts: |
       ${ VSSmt_g_courts }

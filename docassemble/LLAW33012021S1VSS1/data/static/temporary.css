@@ -1,9 +1,8 @@
 body{
     background-image: url("VSSLogotrans.png");
     background-repeat: no-repeat;
-    background-position: left bottom;?
+    background-position: right bottom;?
     background-attachment: fixed;  
-    background-size: 600px 600px;
 }
 
 .navbar{
