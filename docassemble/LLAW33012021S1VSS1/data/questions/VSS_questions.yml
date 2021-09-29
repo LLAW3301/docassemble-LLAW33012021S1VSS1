@@ -1,0 +1,76 @@
+---
+#asking the user to select which court options they'd like to view
+back button: True
+question: |  
+  <span class="VSSHeading">
+  Courts 
+  </span>
+subquestion: |
+  #####<span class="VSSDisclaimer">What would you like information on?</span>   
+fields:
+  - no label: VSSlocation
+    datatype: radio
+    choices:
+      - "Adelaide Metro Courts": Adelaide Metro
+      - "Port Augusta Courts": Port Augusta
+      - "Mount Gambier Courts": Mt Gambier 
+      - "Court Protocols": court_protocols
+      - "Court Support and Self Care Resources": court_support
+right: |
+  <br>
+  [FILE VSSMap.png, 275px]
+
+section: Courts      
+---
+#asking the user to select the category of information they'd like to see
+question: |
+  <span class="VSSHeading">
+  What would you like information on? 
+  </span>
+subuqestion: |
+  #####<span class="VSSDisclaimer">Please select from the information below</span> 
+#setting the buttons and their icons  
+buttons: 
+  - About Us:
+      code: |
+        VSScategories = 'about_us'
+    image: AboutUs
+  - Courts:
+      code: |
+        VSScategories = 'courts'
+    image: Courts
+  - Victim Impact Statements:
+      code: |
+        VSScategories = 'vis'
+    image: VIS
+  - Psychological Services:
+      code: |
+        VSScategories = 'psych_services'
+    image: Psych
+  - Victims' Rights:
+      code: |
+        VSScategories = 'victims_rights'
+    image: Rights    
+  - Interstate:
+      code: |
+        VSScategories = 'Interstate'
+    image: Interstate
+---
+#asking user to select which court protocols they'd like to see
+back button: True
+question: |
+  <span class="VSSHeading">
+  Court Protocols
+  </span>
+subquestion: |
+  #####<span class="VSSDisclaimer">What court protocols would you like information on?</span> 
+fields:
+  -  no label: VSScourt_subcat
+     datatype: radio
+     choices:
+       -  "Before Court Protocols": before_court
+       -  "During Court Protocols": during_court
+       -  "After Court Protocols": after_court
+       -  "Court Layout": court_layout
+section: Courts        
+---

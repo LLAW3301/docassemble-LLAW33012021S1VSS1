@@ -1,0 +1,475 @@
+#templates for all pages in Port Augusta
+include:
+  - VSS_questions.yml
+---
+template: VSSpt_ag_courts
+content: |
+  ##<span class="VSSDisclaimer">Port Augusta Courts</span>    
+  <hr>
+  ####Magistrate Court Layout:
+
+  * Court Rooms 1 and 2 are located at the end of the entry corridor.   
+  * There is a small amount of public seating available (Covid safe) around the edges of the two corridors.    
+  * There are small rooms located off the second corridor available for Prosecution & Defense Counsel.    
+  * Clients can ask a Sheriff’s Officer for a bottle of water.    
+  * Public Toilets available at the end of the entry area.    
+  <hr>
+  
+  ####District Court Layout:
+
+  * District Court with Judges, Prosecutors, Defense Lawyers & other Court Staff coming from Adelaide, sits for approx. 4 weeks every 2 months.    
+  * District Court sits in Room 3 at the end of the second corridor.   
+  * There are seats available for Defense witnesses & the public along the edges of the corridor.    
+  * A very small waiting room for Prosecution witnesses & supporters is at the end of the 2nd corridor, across from Court Room 3 & behind an undulating slatted wood screen.     
+  * A toilet in this area is locked & available only for Staff.    
+  <hr>
+  
+  ####Witness Waiting Room
+
+  * This is a very small room holding only a small table, about 6 chairs and a small rubbish bin.    
+  * Access to the entry area toilets is past the Defense witnesses & supporters.    
+  
+  <div style="text-align: justify; text-justify: inter-word;"> The whole Courthouse is air-conditioned which is controlled from Adelaide. You can gain access to fresh air by exiting near the entry point, then returning through the screening unit to the waiting area.</div> 
+  <hr>
+  
+  ####Video Conferencing Suite
+
+  * Situated at the front of the Courthouse behind the Sheriff’s Officers screening area, there is a small CCTV room for use of vulnerable witnesses (as approved by the Judge) where the witness, VSS Court Supporter and a Sheriff’s Officer sit during examination.     
+  * Alongside this room is a generous sized waiting room where the Victim/Witness, other Prosecution witnesses and supporters wait.     
+  * Others usually waiting in this room are the Investigating Officer & VSS CS.    
+  * There is a sink with a water tap, kettle, disposable hot cups & a rubbish bin so that hot drinks can be made when the Supporter brings resources.    
+  * There is a large Whiteboard on one wall which is used by any children present (and some adults)    
+  * A toilet for client use is just a few metres away from this room in this very secure area.    
+  <hr>
+  
+  ####Sheriff's Officers
+
+  * These officers ensure the safety of witnesses whilst they are in the Court House.    
+  * They are stationed at the entrance to the building, they come to the waiting rooms to obtain information, and lead the witnesses to the Court Room or CCTV room when the witness is called. There are usually 2 Sheriff’s Officers present in the District Court Room when Court is in session.
+  <hr>
+---
+template: VSSinterstate_about_us
+content: |
+  ##<span class="VSSDisclaimer">Interstate Jurisdictions - Victim Assistance Services</span>
+  <hr>  
+  ###<span class="VSSInterstate">New South Wales Victims Service </span>  
+    
+  **Website:** 
+  [https://www.victimsservices.justice.nsw.gov.au](https://www.victimsservices.justice.nsw.gov.au)    
+  
+  
+  **Victims Access Line**   
+  The Victims Access Line is the single entry point for victims of crime in NSW to access services.   
+  
+  **Victims Access Line:** <a href="tel:1800 633 063">1800 633 063</a>    
+  **Aboriginal Contact Line:** <a href="tel:1800 019 123">1800 019 123</a>  
+  
+  **Business hours:** 9am to 5pm, Monday to Friday (excluding public holidays)  
+  
+  **Email:**  
+  Victim Services email: 
+  [vs@dcj.nsw.gov.au](mailto:vs@dcj.nsw.gov.au)  
+  FFMPU email: 
+  [ffmpu@dcj.nsw.gov.au](ffmpu@dcj.nsw.gov.au)
+  <hr>  
+  ###<span class="VSSInterstate">ACT Victims Services</span>    
+  **website :** [https://www.victimsupport.act.gov.au](https://www.victimsupport.act.gov.au)   
+  
+  **Phone:** <a href="tel:1800 8222 72">1800 8222 72</a> or <a href="tel:(02) 6205 2066">(02) 6205 2066</a>   
+  
+  **Fax:** <a href="tel:02 6205 0177">02 6205 0177</a>   
+  
+  **Address:** Level 1, 5 Constitution Avenue Canberra City.
+  <hr>
+  ###<span class="VSSInterstate">Victoria Victims Services </span>    
+  
+  **Website:** [https://www.victimsofcrime.vic.gov.au]([https://www.victimsofcrime.vic.gov.au])   
+  **Victims of Crime Helpline**   
+  The Victim of Crime Helpline can assist you to:
+
+  * get advice about reporting a crime    
+  * find other services that can help you  
+  * get information about the court process  
+  * get help applying for compensation and financial assistance.
+  
+  **Opening Hours:** 8am–11pm, 7 days a week  
+  **Call:** <a href="tel:1800 819 817">1800 819 817</a>  
+  **Text:** <a href="tel:0427 767 891">0427 767 891</a>  
+  **Email:** [vsa@justice.vic.gov.au](mailto:vsa@justice.vic.gov.au)
+  <hr>
+  ###<span class="VSSInterstate">Tasmania Victim Services</span>    
+  **Website:** [https://www.justice.tas.gov.au/victims/services/victimsofcrime](https://www.justice.tas.gov.au/victims/services/victimsofcrime)  
+  ####Hobart  
+    **Address:** Level 1, 54 Victoria Street, Hobart  
+  
+  **Telephone:** (03) 6165 7524 or 1300 663 773 (toll free)    
+  **Fax:** (03) 6173 0215    
+  **Email:** victims@justice.tas.gov.au  
+  
+  ####Launceston  
+    **Address:** Level 3, Henty House, 1 Civic Square, Launceston  
+  
+  **Telephone:** <a href="tel:(03) 6165 7524">(03) 6165 7524</a> or <a href="tel:1300 663 773">1300 663 773</a> (toll free)    
+  **Fax:** <a href="tel:(03) 6173 0215">(03) 6173 0215</a>  
+  
+  ####Burnie  
+    **Address:** Level 1 54 -56 Mount Street Burnie TAS 7320    
+    
+  **Telephone:** <a href="tel:(03) 6477 7133">(03) 6477 7133</a> or <a href="tel:1300 663 773">1300 663 773</a> (toll free)    
+  **Fax:** <a href="tel:(03) 6173 0215">(03) 6173 0215</a>5  
+  <hr>
+  ##<span class="VSSInterstate">Western Australia Victims Services </span>    
+    **Website:** [https://www.victimsofcrime.wa.gov.au](https://www.victimsofcrime.wa.gov.au)  
+  
+  ####Commissioner for Victims of Crime  
+  
+  **Address:** GPO Box F317 PERTH WA 6841  
+  
+  **Phone:** <a href="tel:(08) 9264 1600">(08) 9264 1600</a> or <a href="tel:(08) 9425 2973">(08) 9425 2973</a>    
+  **Email:** [cvoc@justice.wa.gov.au](mailto:cvoc@justice.wa.gov.au)  
+  
+  ####Criminal Injuries Compensation  
+  **Address:** Level 10, 32 St Georges Terrace PERTH WA 6000  
+  
+  **Phone:** <a href="tel:(08) 9425 3250">(08) 9425 3250</a>    
+  **Email:** [criminal.injuries@justice.wa.gov.au](mailto:criminal.injuries@justice.wa.gov.au)  
+  
+  ####Victim Notification Registry  
+  **Address:** GPO Box 6702 PERTH WA 6892  
+  
+  **Phone:** <a href="tel:(08) 9425 2870">(08) 9425 2870</a>    
+  **Fax:** <a href="tel:(08) 9425 2869">(08) 9425 2869</a>    
+  **Freecall:** <a href="tel:1800 818 988">1800 818 988</a> (outside metro only)    
+  **Email:** [vnr@justice.wa.gov.au](mailto:vnr@justice.wa.gov.au)  
+  
+  ####Victim Support and Child Witness Service  
+  **Address:** District Court Building, Level 2, 500 Hay Street PERTH WA 6000  
+  
+  **Phone:** <a href="tel:(08) 9425 2850">(08) 9425 2850</a>    
+  **Fax:** <a href="tel:(08) 9425 4428">(08) 9425 4428</a>    
+  **Freecall:** <a href="tel:1800 818 988">1800 818 988</a>    
+  **Email:** [vss@justice.wa.gov.au](mailto:vss@justice.wa.gov.au)  
+  <hr>
+  ###<span class="VSSInterstate">Northern Territory Victim Services </span>    
+  **Website:** [https://victimsofcrime.org.au](https://victimsofcrime.org.au)  
+  
+  **For 24-hour support, contact:** <a href="tel:1800 672 242">1800 672 242</a>  
+  
+  ####Darwin  
+  **Address:** Level 2, NAB House, 71 Smith Street, Darwin NT 0800     
+  
+  **Phone:** <a href="tel:(08) 8941 0995">(08) 8941 0995</a>  
+  **Email:** [admin@victimsofcrime.org.au](mailto:admin@victimsofcrime.org.au)  
+    
+  ####Alice Springs     
+  
+  **Address:** 4/15 Leichhardt Terrace, Alice Springs NT 0870     
+  
+  **Phone:** <a href="tel:(08) 8952 4466">(08) 8952 4466</a>    
+  **Email:** [as.office@victimsofcrime.org.au](as.office@victimsofcrime.org.au)  
+    
+  ####Tennant Creek     
+  
+  **Address:** Paterson Street Hub, 139 Paterson Street, Tennant Creek NT 0860     
+  
+  **Phone:** <a href="tel:(08) 8952 4466">(08) 8952 4466</a>  
+  **Email:** [supporttc@victimsofcrime.org.au](mailto:supporttc@victimsofcrime.org.au)  
+  
+  <hr>
+  ###<span class="VSSInterstate">Queensland Victim Services </span>    
+  
+  **Website:** [https://www.qld.gov.au/law/crime-and-police/victims-and-witnesses-of-crime](https://www.qld.gov.au/law/crime-and-police/victims-and-witnesses-of-crime)  
+  
+  ####Victim Assist  
+  
+  **Phone:** <a href="tel:1300 546 587">1300 546 587</a>    
+  **Email:** [victimassist@justice.qld.gov.au](mailto:victimassist@justice.qld.gov.au)  
+  <hr>
+---
+template: VSScourt_before
+content: |
+  ##<span class="VSSDisclaimer">Before Court Protocols</span>   
+  <hr>
+  ###Attending the pre-court conference        
+  <div style="text-align: justify; text-justify: inter-word;"> The prosecutor will usually schedule a pre-court conference in which he or she will meet with the witness to go over their statement and give them some idea of what is likely to occur in the courtroom.</div>  
+  <div style="text-align: justify; text-justify: inter-word;"> The witness can use this opportunity to ask any questions they may have about the process and what to expect.</div>     
+  <hr>
+  ###Arriving at Court      
+  <div style="text-align: justify; text-justify: inter-word;"> You will be advised where to meet, and we recommend arriving 10 minutes before the agreed time.</div><div style="text-align: justify; text-justify: inter-word;"> On arrival, meet the witness at your pre-arranged location.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word;"> When entering the Court, you will go through security screening, placing any bags or other personal items in a tray to be scanned. Please remember not to bring any items such as scissors, glass bottles or anything that could be perceived as a weapon.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word;"> If you are advised that your client is particularly anxious about attending Court, it can be good to have a chat with the Court Sheriff to put the client at ease when you come in.</div> 
+  <hr>
+---
+template: VSScourt_after
+content: |
+  ##<span class="VSSDisclaimer">After Court Protocols</span>   
+  <hr> 
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">Being a witness is a difficult task, the client may want to talk to you about the trial after they have given evidence, and they may express a range of emotions.</div>     
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">You can let them debrief, but it is very important that you just listen to them and how they are feeling.Do not provide any opinions on how things have gone, and do not offer any advice.</div>   
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">It will be appropriate to recognise that it would have been a difficult thing for the client to do and that they did their best.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">It is not appropriate to say what you think the outcome might be, or to discuss their evidence, or any other evidence given.
+  It may be necessary to gently remind the client about this.
+  Remember that there may be appeals and other hearings to follow, so while the matter is still before the Court, great care must be taken in how things are spoken about.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">The client may be distressed or may express anger and frustration.
+  If you are concerned about the client’s wellbeing, you can make some suggestions to the client about contacting services that are able to assist them. Although you are not responsible for this aspect, it is important that you do know where to refer the client, so they can receive relevant support.</div>    
+  <hr>
+  ###Leaving the Court    
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">After the court proceedings involving the client have wrapped up for the day, it is important to provide support to the client.</div>
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">Although there may be some sense of relief felt by you and your client, it is important that it is sensitively discussed, as some clients may feel completely lost and let-down. You should let the client know that they have done their best, and you might ask them how they plan to mark the occasion.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">It may help to conclude the day by focusing on the practicals, such as how the client is getting home, what they will do when they get home, and who to contact if they need anything organised beyond their day in court. However, you should not contact anyone on their behalf. It is important that it is clear to the client who they should contact for any assistance if required.</div>     
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">The role of the Companion concludes at the end of the scheduled involvement. Good boundaries must be established at this point, and you must not give your client your contract information.</div>      
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">If you have any concerns about your client’s general demeanour of they say something which raises concerns for you, but do not suggest harm to themselves or another person, then you should advice the VSS Coordinator or the Witness Assistance Service Officer. If you have serious concerns about the client, it is important that you understand that you are not expected to manage the situation on your own. You can suggest Lifeline to the client for immediate support, as it is available 24/7.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">It is important that you notify the South Australian Police if there is any risk to the client or any other person. You should debrief with your VSS Coordinator after any such incident and action any self-care strategies that you intend to use to look after yourself.</div> 
+  <hr>  
+---
+template: VSScourt_during
+content: |
+  ##<span class="VSSDisclaimer">During Court Protocols</span>
+  <hr>
+  ###Attending Court     
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">Ensure you check the Courts List or go to the Information Counter to check which courtroom you need to be in.</div>   
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">Ensure the prosecutor is informed that the witness has arrived and then go to the area where you will be waiting. If a separate, safe place has been arranged, you may need to ask for the bailiff to open the door for you.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">If no pre-arranged meeting or location has been arranged, go to the courtroom. The prosecutor will do their best to keep the witness updated with the progress of the case and about when they will probably be called to give their evidence.</div>      
+  
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">If you have any concerns about the accused, you should seek the support of the Court Sheriff. You and your client must follow the instructions and processes set out by the Court Sheriff and other court staff.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">Ensure that you provide your client with practical information, such as what to expect during the day, and where bathrooms and other relevant facilities are, such as where to make coffee/tea.</div>    
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">Before the client is called into the courtroom, remind them that they should not be worried if, when they look at you during their testimony, you will not provide any positive or negative response. It is also important to remind them to:</div>
+
+  * Address the magistrate or judge as ‘Your Honour’;    
+  * Listen carefully to the questions, making sure they understand what is asked before they answer;    
+  * Ask for the question to be repeated if they don’t understand it or if they didn’t hear it properly;    
+  * Never guess an answer to a question. If they don’t know the answer or can’t remember, they should say so;    
+  * Remain calm and speak clearly;    
+  * Not feel pressured to answer a question quickly. They should take their time thinking and answering;    
+  * Remember that the same (or similar) questions may be asked more than once;    
+  * If they feel upset or distressed, pause, take some deep breaths, or have a drink of water. They should continue only when they are ready; and    
+  * Ask for a break if they need to go to the bathroom or if their anxiety is unmanageable.     
+  
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">When the client is called to give evidence, they will be directed to the witness box, unless other provisions have been made. The prosecution witnesses are classed first. Each witness is cross-examined by the defence lawyer, and there may be re-examination if the prosecution requires it.</div>     
+  
+  <div style="text-align: justify; text-justify: inter-word; margin: 0px; padding: 0px;">In the courtroom, you must remain neutral and impartial at all times. You must not react at all while the witness is giving their evidence and it is important to maintain a neutral facial expression and not make any gestures. You must not react negatively to difficult questions during cross-examination by the defence lawyer, and must appear to remain neutral. You must not touch the client, even if it seems like an appropriate act of reassurance.</div> 
+  <hr>
+---
+template: VSScourt_layout
+content: |
+  ##<span class="VSSDisclaimer">Court Layout</span>  
+  <hr>
+  [FILE Court_Layout.jpg, 125%]
+  ***Image sourced from:** the Office for the Commissioner for Victims Rights.*
+  <hr>
+---
+template: VSScourt_support
+content: |
+  ##<span class="VSSDisclaimer">Court Support and Self Care Resources</span>     
+  <hr>
+  ####Stopp    
+  [https://www.getselfhelp.co.uk/free-downloads-cbt-information-leaflets-self-help-guides/](https://www.getselfhelp.co.uk/free-downloads-cbt-information-leaflets-self-help-guides/)    
+  
+  [https://www.getselfhelp.co.uk/docs/stoppcards.pdf](https://www.getselfhelp.co.uk/docs/stoppcards.pdf)    
+  
+  <hr>
+  
+  ####Anxiety
+  [https://www.getselfhelp.co.uk/docs/AcceptingAnxiety.pdf](https://www.getselfhelp.co.uk/docs/AcceptingAnxiety.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/AnxietySelfHelp.pdf](https://www.getselfhelp.co.uk/docs/AnxietySelfHelp.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/APPLE2.pdf](https://www.getselfhelp.co.uk/docs/APPLE2.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/AnxietyQR.pdf](https://www.getselfhelp.co.uk/docs/AnxietyQR.pdf)    
+  
+  [https://get.gg/docs/TheMindBully.pdf](https://get.gg/docs/TheMindBully.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/PanicSelfHelp.pdf](https://www.getselfhelp.co.uk/docs/PanicSelfHelp.pdf)    
+  
+  <hr>
+  
+  ####Self Help and Wellbeing    
+  [https://www.getselfhelp.co.uk/docs/ACE.pdf](https://www.getselfhelp.co.uk/docs/ACE.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/ACT.pdf](https://www.getselfhelp.co.uk/docs/ACT.pdf)    
+  
+  [https://www.get.gg/docs/Battery.pdf](https://www.get.gg/docs/Battery.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/cards.pdf](https://www.getselfhelp.co.uk/docs/cards.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/Options.pdf](https://www.getselfhelp.co.uk/docs/Options.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/5WaysPersonalWellbeing.pdf](https://www.getselfhelp.co.uk/docs/5WaysPersonalWellbeing.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/Kitbag.pdf](https://www.getselfhelp.co.uk/docs/Kitbag.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/Compassion.pdf](https://www.getselfhelp.co.uk/docs/Compassion.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/DealingNegativeEmotions.pdf](https://www.getselfhelp.co.uk/docs/DealingNegativeEmotions.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/Helicopter.pdf](https://www.getselfhelp.co.uk/docs/Helicopter.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/NourishingDepleting.pdf](https://www.getselfhelp.co.uk/docs/NourishingDepleting.pdf)    
+  
+  [https://www.getselfhelp.co.uk/docs/Steps%20to%20Wellbeing.pdf](https://www.getselfhelp.co.uk/docs/Steps%20to%20Wellbeing.pdf)      
+  <hr> 
+  ####Positive statements to self and others    
+  [https://www.getselfhelp.co.uk/docs/PositiveAffirmations.pdf](https://www.getselfhelp.co.uk/docs/PositiveAffirmations.pdf)     
+  <hr>
+  
+  ####Stress response     
+  [https://www.getselfhelp.co.uk/docs/Adrenaline.pdf](https://www.getselfhelp.co.uk/docs/Adrenaline.pdf)    
+  <hr>
+  
+  ####Anger      
+  [https://www.getselfhelp.co.uk/docs/anger.pdf](https://www.getselfhelp.co.uk/docs/anger.pdf)     
+  
+  [https://www.getselfhelp.co.uk/docs/AngerQR.pdf](https://www.getselfhelp.co.uk/docs/AngerQR.pdf)   
+  <hr>
+  
+  ####Mindfulness/Relaxation     
+  [https://www.getselfhelp.co.uk/docs/MindfulBreathing.pdf](https://www.getselfhelp.co.uk/docs/MindfulBreathing.pdf)     
+  
+  [https://www.getselfhelp.co.uk/docs/ColourBreathing.pdf](https://www.getselfhelp.co.uk/docs/ColourBreathing.pdf)     
+  
+  [https://www.getselfhelp.co.uk/docs/NOW.pdf](https://www.getselfhelp.co.uk/docs/NOW.pdf)     
+  
+  [https://get.gg/docs/Relaxation.pdf](https://get.gg/docs/Relaxation.pdf)     
+  <hr> 
+  ####Rumination/worry     
+  [https://www.getselfhelp.co.uk/docs/RuminationWorry.pdf](https://www.getselfhelp.co.uk/docs/RuminationWorry.pdf)      
+  <hr> 
+  ####Wheel of emotion     
+  [https://www.getselfhelp.co.uk/docs/RuminationWorry.pdf](https://www.getselfhelp.co.uk/docs/RuminationWorry.pdf)     
+  
+  [https://www.getselfhelp.co.uk/docs/worrytree.pdf](https://www.getselfhelp.co.uk/docs/worrytree.pdf)    
+  
+  <hr> 
+---
+template: VSSadl_metro_courts
+content: |
+  ##<span class="VSSDisclaimer">Adelaide Metro Courts</span>  
+  <hr>
+  ####Location & Opening Hours    
+  **Address:** Sir Samuel Way Building, 241- 259 Victoria Square, Adelaide, SA, 5000.     
+  **Open**: 9:30am-4:30pm Weekdays *(Excluding public holidays)*    
+  
+  **Criminal Enquiries:**     
+  **Ph:** <a href="tel:+61 8 8204 2444">+61 8 8204 2444</a>     
+  **Fax:** <a href="tel:+61 8 8124 4642">+61 8 8124 4642</a>    
+  **Email:** [ccrcs@courts.sa.gov.au](mailto:ccrcs@courts.sa.gov.au)     
+  
+  <hr>
+  ####Courts    
+  The District Court is the principal trial court in South Australia. The Court’s work covers four jurisdictions:
+
+  * Civil
+  * Criminal*
+  * Administrativ and Disciplinary Division
+  * Criminal injuries    
+  
+  **murder and treason offences can only be heard by the Supreme Court.*   
+  
+  <div style="text-align: justify; text-justify: inter-word;"> Entrance to the building is via Victoria Square with lift transport to the Ground Floor.</div>    
+  
+  Public toilets are located on the following floors:
+
+  * **Level 1 -** Adjacent to Court 1
+  * **Level 3 -** Opposite the lifts
+  * **Level 5 -** Opposite the lifts    
+  
+  Accessible toilets are located on level 1 opposite the lifts.     
+  
+  <div style="text-align: justify; text-justify: inter-word;"> An accessible water fountain is located on level 1 opposite the lifts.</div     
+  
+  <div style="text-align: justify; text-justify: inter-word;"> There are witness waiting rooms for Prosecution witnesses in the building.</div>     
+  <hr>
+  
+  ####Video Conferencing Suite
+  <div style="text-align: justify; text-justify: inter-word;"> The facilities are used for a range of court matters in the District Court.</div> <div style="text-align: justify; text-justify: inter-word;"> The suite is situated in the Supreme Court Building.</div> <div style="text-align: justify; text-justify: inter-word;"> The address for the Supreme Court is 1 Gouger St, Adelaide.</div>    
+  <hr>
+  
+  ####Witness Waiting Room    
+  <div style="text-align: justify; text-justify: inter-word;"> This room is for the use of Prosecution witnesses and family and supporters.</div>     
+  <hr>
+  
+  ####Sheriff's Officers    
+  <div style="text-align: justify; text-justify: inter-word;"> These officers ensure the safety of witnesses whilst they are in the Court House.  They are stationed at the entrance to the building.  Any questions of a general nature for instance, about the scheduling of the court matter can be directed to one of these officers.</div>    
+  <hr>
+  
+  ####Disabled Access
+  <div style="text-align: justify; text-justify: inter-word;"> An access ramp is located at the front entrance to the building.</div>  Accessible toilets are located in the main foyer.    
+  <div style="text-align: justify; text-justify: inter-word;"> A lift is available for use for people using the Magistrates Court on 1st floor.</div>    
+  <hr>
+  
+  ####Car Parking    
+  <div style="text-align: justify; text-justify: inter-word;"> Off street parking is available at the rear of the Court House.  There is no cost for parking.</div>   
+  <hr>
+---
+template: VSSmt_g_courts
+content: |
+  ##<span class="VSSDisclaimer">Mount Gambier Courts</span>  
+  <hr>
+  ####Magistrates Court
+
+  * Magistrates Court is conducted most weekdays.    
+  * Court Room 1 is located on the 1st floor (a lift is available). Public seating is available directly outside the courtroom with small offices nearby for use by Prosecution and Defence counsel.      
+  * Toilet facilities are available next door to the courtroom.   
+  <hr>
+  
+  ####District Court
+
+  * The District Court visits Mount Gambier 3 times per year – March, July & November for approximately 4 weeks each of these months.     
+  * The District Court is held in Court Room 2 which is located on the ground floor.    
+  * Generally, witnesses appearing for the Defence wait in this public area. There is a separate waiting room for witnesses appearing for the Prosecution.     
+  * Toilet facilities are available on this floor.    
+  <hr>
+  
+  ####Location & Opening Hours     
+  **Address:** 41 Bay Road, Mount Gambier, SA.    
+  **Open:**  9-5 Weekdays    
+  **Ph:** <a href="tel:(08) 8735 1060">(08) 8735 1060</a>    
+  <hr>
+  
+  ####Video Conferencing Suite    
+  <div style="text-align: justify; text-justify: inter-word;"> The facilities are used for a range of court matters including Magistrates and District Courts.  The suite is situated down a passage away from the general waiting area and is located next door to the Witness Waiting Room.</div>    
+  <hr>
+  
+  ####Witness Waiting Room
+
+  * This room is for the use of Prosecution witnesses, family and supporters.     
+  * Tea and coffee facilities are available in this room.   
+  <hr>
+  
+  ####Sheriff's Officers
+
+  * These officers ensure the safety of witnesses whilst they are in the Court House. They are stationed at the entrance to the building.   
+  * Any questions of a general nature for instance, about the scheduling of the court matter can be directed to one of these officers.     
+  <hr>
+  
+  ####Disabled Access
+
+  * An access ramp is located at the front entrance to the building.   
+  * Accessible toilets are located in the main foyer.    
+  * A lift is available for use for people using the Magistrates Court on 1st floor.
+  <hr>
+  
+  ####Transport
+
+  * **Car Parking:** Off street parking is available at the rear of the Court House. There is no cost for parking.    
+  * **Taxi Services:** taxi rank is located close to the Court House on Bay Road.    
+  * **Cafe:** A Café (Bay Blue) is located next door to the Court House. It serves a range of drinks and light meals. 
+  <hr>
+---

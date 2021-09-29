@@ -1,0 +1,238 @@
+---
+#setting the metadata for the site
+metadata:
+  title: |
+    Victim Support Service SA Companions Guide
+  short title: |
+    Companions Guide
+  authors:
+    - name: Sam George
+    - name: Ruby Brooks
+    - name: Kristina Mandelos
+    - name: Hannah Goldman
+  organisation: Flinders University
+  show login: False
+  exit url: https://www.victimsa.org/
+  exit label: Exit
+---
+#The sections in the navigation bar
+sections:
+  - Disclaimer
+  - About Us
+  - Courts  
+  - Victim Impact Statements
+  - Psychological Services
+  - Victims' Rights
+  - Interstate  
+---
+#disabling the source button, defining CSS and adding a back button
+features:
+  debug: False
+  css: VSSstyles.css
+  hide standard menu: True
+  navigation back button: True
+  navigation: True
+---
+#VSS logo for the header
+objects:
+  - VSSlogo: DAStaticFile.using(filename='VSSHeader.png')
+---
+# Flinders Uni attribution
+default screen parts:
+  post: |
+    <div style="display: flex; height: 200px; align-items: flex-end; flex-direction: row-reverse">
+    <div style="margin: 5px"><img src="https://staff.flinders.edu.au/etc.clientlibs/flinders/clientlibs/clientlib-site/resources/images/flinderuni_main_logo_black.png" height="40">
+    </div>
+    <div style="margin: 5px; text-align: right">
+    <cite><small><i>
+    Developed by Flinders University in collaboration with Victim Support Services SA
+    </i></small></cite>
+    </div>
+    </div>
+---
+#Setting the VSS logo in the ehader and redefining titles
+mandatory: True
+decoration: star
+code: |
+  VSSlogostring = '<img src="{}"height="40">'.format(VSSlogo.url_for()) 
+  set_parts(title=VSSlogostring + " Victim Support Services SA Companions Guide")
+  set_parts(tab = "Victim Support Services SA Companions Guide")
+---
+include:
+  - VSS_questions.yml
+  - VSSdata.yml
+  - VSScourt_templates.yml
+  - VSSglobal_templates.yml
+---
+#setting icon images and map picture
+images:
+  Interstate: Interstate.svg
+  AboutUs: AboutUs.svg
+  Courts: Court.svg
+  VIS: VIS.svg
+  Psych: psych2.svg
+  Rights: Rights.svg
+  Maps: VSSmap.png
+---
+#Initial welcome screen and disclaimer
+mandatory: True
+question: | 
+  <span class="VSSHeading">
+  Victim Support Service Companions Guide 
+  </span>
+subquestion: |
+  #####<span class="VSSDisclaimer">Welcome</span>      
+  Welcome to the Victim Support Service (VSS) Companions Guide.    
+  
+  This application is designed to:
+  
+  * Provide you with quick access to information; and 
+  * To assist you in providing support to clients of the court support program.    
+  
+  
+  
+    <hr>
+  
+  #####<span class="VSSDisclaimer">Disclaimer</span>
+
+  * *This is a guide to selected agencies and services only and may not include all services.*
+  * *There are no guarantees that any individual agency or service will accept an enquiry or provide services.*
+  * *This application does not provide legal advice.*     
+  
+  Please select one of the following to accept or decline these terms. 
+buttons:
+  - I accept: continue
+  - I do not accept: exit
+    url: https://www.victimsa.org/    
+section: Disclaimer      
+---
+#code confirming which options take you to which pages
+mandatory: True
+code: |
+  if (VSScategories == 'Interstate'):
+    Interstate_page
+  elif (VSScategories == 'about_us'):
+    aboutus_page
+  elif (VSScategories == 'vis'):
+    VIS_page
+  elif (VSScategories == 'psych_services'):
+    psych_page
+  elif (VSScategories == 'victims_rights'):
+    victimsrights_page
+  elif (VSScategories == 'courts' and VSSlocation != 'court_protocols'):
+    courts1_page  
+  elif (VSScategories == 'courts' and VSSlocation == 'court_protocols'):
+    courts2_page
+---
+#Defining the page for Interstate
+back button: True
+section: Interstate
+event: Interstate_page
+question: |
+subquestion: |
+  ${ VSSdata1[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: VSS Companions Guide
+  docx template file: Handbook_Template.docx
+  editable: False  
+  valid formats:
+    - pdf
+---
+#Defining the page for About US
+back button: True
+section: About Us
+event: aboutus_page
+question: |
+subquestion: |
+  ${ VSSdata2[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: VSS Companions Guide
+  docx template file: Handbook_Template.docx
+  editable: False
+  valid formats:
+    - pdf
+---
+#Defining the page for Victim Impact Statements
+back button: True
+section: Victim Impact Statements
+event: VIS_page
+question: |
+subquestion: |
+  ${ VSSdata3[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: VSS Companions Guide
+  docx template file: Handbook_Template.docx
+  editable: False
+  valid formats:
+    - pdf
+---
+#Defining the page for Psychological Services
+back button: True
+section: Psychological Services
+event: psych_page
+question: |
+subquestion: |
+  ${ VSSdata4[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: VSS Companions Guide
+  docx template file: Handbook_Template.docx
+  editable: False
+  valid formats:
+    - pdf
+---
+#Defining the page for Victims Rights
+back button: True
+section: Victims' Rights
+event: victimsrights_page
+question: |
+subquestion: |
+  ${ VSSdata5[VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: VSS Companions Guide
+  docx template file: Handbook_Template.docx
+  editable: False
+  valid formats:
+    - pdf
+---
+#Defining the page for Court related enquiries
+back button: True
+section: Courts
+event: courts1_page
+question: |
+subquestion: |
+  ${ VSSdata6[VSSlocation][VSScategories] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: VSS Companions Guide
+  docx template file: Handbook_Template.docx
+  editable: False
+  valid formats:
+    - pdf
+---
+#Defining the page for Court Protocols
+back button: True
+section: Courts
+event: courts2_page
+question: |
+subquestion: |
+  ${ VSSdata[VSScategories][VSScourt_subcat] }
+  
+  **Download or email this information as a PDF**  
+attachment:
+  filename: VSS Companions Guide
+  docx template file: Handbook_Template.docx
+  editable: False
+  valid formats:
+    - pdf
+---

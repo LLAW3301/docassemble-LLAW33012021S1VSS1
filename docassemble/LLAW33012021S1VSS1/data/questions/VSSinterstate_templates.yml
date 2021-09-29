@@ -1,0 +1,142 @@
+#templates for all pages in metro adl
+include:
+  - VSS_questions.yml
+---
+template: VSSinterstate_about_us
+content: |
+  #<span class="VSSDisclaimer">Interstate Jurisdictions - Victim Assistance Services </span>
+  <hr>  
+  ##<span class="VSSInterstate">New South Wales Victims Service </span>  
+    
+  **Website:** 
+  [https://www.victimsservices.justice.nsw.gov.au](https://www.victimsservices.justice.nsw.gov.au)    
+  
+  
+  **Victims Access Line**   
+  The Victims Access Line is the single entry point for victims of crime in NSW to access services.   
+  
+  **Victims Access Line:** <a href="tel:1800 633 063">1800 633 063</a>    
+  **Aboriginal Contact Line:** <a href="tel:1800 019 123">1800 019 123</a>  
+  
+  **Business hours:** 9am to 5pm, Monday to Friday (excluding public holidays)  
+  
+  **Email:**  
+  Victim Services email: 
+  [vs@dcj.nsw.gov.au](mailto:vs@dcj.nsw.gov.au)  
+  FFMPU email: 
+  [ffmpu@dcj.nsw.gov.au](ffmpu@dcj.nsw.gov.au)
+  <hr>  
+  ##<span class="VSSInterstate">ACT Victims Services</span>    
+  **website :** [https://www.victimsupport.act.gov.au](https://www.victimsupport.act.gov.au)   
+  
+  **Phone:** <a href="tel:1800 8222 72">1800 8222 72</a> or <a href="tel:(02) 6205 2066">(02) 6205 2066</a>   
+  
+  **Fax:** <a href="tel:02 6205 0177">02 6205 0177</a>   
+  
+  **Address:** Level 1, 5 Constitution Avenue Canberra City.
+  <hr>
+  ##<span class="VSSInterstate">Victoria Victims Services </span>    
+  
+  **Website:** [https://www.victimsofcrime.vic.gov.au]([https://www.victimsofcrime.vic.gov.au])   
+  **Victims of Crime Helpline**   
+  The Victim of Crime Helpline can assist you to:
+
+  * get advice about reporting a crime    
+  * find other services that can help you  
+  * get information about the court process  
+  * get help applying for compensation and financial assistance.
+  
+  **Opening Hours:** 8am–11pm, 7 days a week  
+  **Call:** <a href="tel:1800 819 817">1800 819 817</a>  
+  **Text:** <a href="tel:0427 767 891">0427 767 891</a>  
+  **Email:** [vsa@justice.vic.gov.au](mailto:vsa@justice.vic.gov.au)
+  <hr>
+  ##<span class="VSSInterstate">Tasmania Victim Services</span>    
+  **Website:** [https://www.justice.tas.gov.au/victims/services/victimsofcrime](https://www.justice.tas.gov.au/victims/services/victimsofcrime)  
+  ####Hobart  
+    **Address:** Level 1, 54 Victoria Street, Hobart  
+  
+  **Telephone:** (03) 6165 7524 or 1300 663 773 (toll free)    
+  **Fax:** (03) 6173 0215    
+  **Email:** victims@justice.tas.gov.au  
+  
+  ####Launceston  
+    **Address:** Level 3, Henty House, 1 Civic Square, Launceston  
+  
+  **Telephone:** <a href="tel:(03) 6165 7524">(03) 6165 7524</a> or <a href="tel:1300 663 773">1300 663 773</a> (toll free)    
+  **Fax:** <a href="tel:(03) 6173 0215">(03) 6173 0215</a>  
+  
+  ####Burnie  
+    **Address:** Level 1 54 -56 Mount Street Burnie TAS 7320    
+    
+  **Telephone:** <a href="tel:(03) 6477 7133">(03) 6477 7133</a> or <a href="tel:1300 663 773">1300 663 773</a> (toll free)    
+  **Fax:** <a href="tel:(03) 6173 0215">(03) 6173 0215</a>5  
+  <hr>
+  ##<span class="VSSInterstate">Western Australia Victims Services </span>    
+    **Website:** [https://www.victimsofcrime.wa.gov.au](https://www.victimsofcrime.wa.gov.au)  
+  
+  ####Commissioner for Victims of Crime  
+  
+  **Address:** GPO Box F317 PERTH WA 6841  
+  
+  **Phone:** <a href="tel:(08) 9264 1600">(08) 9264 1600</a> or <a href="tel:(08) 9425 2973">(08) 9425 2973</a>    
+  **Email:** [cvoc@justice.wa.gov.au](mailto:cvoc@justice.wa.gov.au)  
+  
+  ####Criminal Injuries Compensation  
+  **Address:** Level 10, 32 St Georges Terrace PERTH WA 6000  
+  
+  **Phone:** <a href="tel:(08) 9425 3250">(08) 9425 3250</a>    
+  **Email:** [criminal.injuries@justice.wa.gov.au](mailto:criminal.injuries@justice.wa.gov.au)  
+  
+  ####Victim Notification Registry  
+  **Address:** GPO Box 6702 PERTH WA 6892  
+  
+  **Phone:** <a href="tel:(08) 9425 2870">(08) 9425 2870</a>    
+  **Fax:** <a href="tel:(08) 9425 2869">(08) 9425 2869</a>    
+  **Freecall:** <a href="tel:1800 818 988">1800 818 988</a> (outside metro only)    
+  **Email:** [vnr@justice.wa.gov.au](mailto:vnr@justice.wa.gov.au)  
+  
+  ####Victim Support and Child Witness Service  
+  **Address:** District Court Building, Level 2, 500 Hay Street PERTH WA 6000  
+  
+  **Phone:** <a href="tel:(08) 9425 2850">(08) 9425 2850</a>    
+  **Fax:** <a href="tel:(08) 9425 4428">(08) 9425 4428</a>    
+  **Freecall:** <a href="tel:1800 818 988">1800 818 988</a>    
+  **Email:** [vss@justice.wa.gov.au](mailto:vss@justice.wa.gov.au)  
+  <hr>
+  ##<span class="VSSInterstate">Northern Territory Victim Services </span>    
+  **Website:** [https://victimsofcrime.org.au](https://victimsofcrime.org.au)  
+  
+  **For 24-hour support, contact:** <a href="tel:1800 672 242">1800 672 242</a>  
+  
+  ####Darwin  
+  **Address:** Level 2, NAB House, 71 Smith Street, Darwin NT 0800     
+  
+  **Phone:** <a href="tel:(08) 8941 0995">(08) 8941 0995</a>  
+  **Email:** [admin@victimsofcrime.org.au](mailto:admin@victimsofcrime.org.au)  
+    
+  ####Alice Springs     
+  
+  **Address:** 4/15 Leichhardt Terrace, Alice Springs NT 0870     
+  
+  **Phone:** <a href="tel:(08) 8952 4466">(08) 8952 4466</a>    
+  **Email:** [as.office@victimsofcrime.org.au](as.office@victimsofcrime.org.au)  
+    
+  ####Tennant Creek     
+  
+  **Address:** Paterson Street Hub, 139 Paterson Street, Tennant Creek NT 0860     
+  
+  **Phone:** <a href="tel:(08) 8952 4466">(08) 8952 4466</a>  
+  **Email:** [supporttc@victimsofcrime.org.au](mailto:supporttc@victimsofcrime.org.au)  
+  
+  <hr>
+  ##<span class="VSSInterstate">Queensland Victim Services </span>    
+  
+  **Website:** [https://www.qld.gov.au/law/crime-and-police/victims-and-witnesses-of-crime](https://www.qld.gov.au/law/crime-and-police/victims-and-witnesses-of-crime)  
+  
+  ####Victim Assist  
+  
+  **Phone:** <a href="tel:1300 546 587">1300 546 587</a>    
+  **Email:** [victimassist@justice.qld.gov.au](mailto:victimassist@justice.qld.gov.au)  
+  <hr>
+---
