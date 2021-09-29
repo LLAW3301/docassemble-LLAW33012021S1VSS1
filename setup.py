@@ -57,4 +57,3 @@ setup(name='docassemble.LLAW33012021S1VSS1',
       zip_safe=False,
       package_data=find_package_data(where='docassemble/LLAW33012021S1VSS1/', package='docassemble.LLAW33012021S1VSS1'),
      )
-

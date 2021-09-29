@@ -1,0 +1,47 @@
+#Initial Welcome Screen with welcome message and disclaimer
+mandatory: True
+question: Victims Support Services Volunteer Handbook
+subquestion: |
+  ##Welcome Message!##
+  <br>
+  >***insert Disclaimer if required***
+  
+  Do you accept disclaimer terms?
+buttons:
+  -  I agree: continue
+  -  I disagree: exit
+---
+#Asking for Location to redirect to correct information
+mandatory: True
+question: Court Location
+subquestion: |
+  You have selected the District of **${ VSS1District }**
+buttons:
+  -  Continue: continue
+  -  Reselect District:  restart
+  -  Exit: exit
+---
+#Setting the district 
+question: |
+  Which district is your case in?
+fields:
+  - District: VSS1District
+    choices: 
+      -  Metro Adelaide
+      -  Port Augusta
+      -  Mt Gambier
+---
+#Navigate to different topics
+mandatory: True
+question: |
+  What would you like information on?
+buttons:
+  -  About Us/Contact Us: exit
+  -  Courts: exit
+  -  Victim Impact Statements: exit
+  -  Psychological Services: exit
+  -  Victims Rights: exit
+  -  Mental Health First Aid: exit
+---
+
+  
